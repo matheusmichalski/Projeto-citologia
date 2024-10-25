@@ -1,0 +1,110 @@
+/*====================================
+    Formatação header
+=====================================*/
+
+header {
+    background-color: #D0CFD3;
+    padding: 1.5vw 2vw 1vw 2vw;
+    color: #2e1089;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.489);
+}
+
+
+header ul{
+    display: flex;
+    padding: 1.2vw 4vw 0.8vw 1vw;
+}
+
+header ul li{
+    padding: 0 1vw 0 1vw;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #2e1089;
+}
+
+.paginaAtual{
+    background-color: white;
+    padding: 0.5vw;
+    border-radius: 100px;
+}
+
+/*==============================
+    Formatação banner
+================================*/
+
+section.banner img{
+    width: 100%;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.491);
+}
+
+/*=============================
+    Formatação celula animal
+==============================*/
+
+section.celula-animal{
+    margin: 2vw 2vw 2vw 2vw;
+}
+
+section.celula-animal h1{
+    font-size: 3rem;
+    text-align: center;
+    justify-content: center;
+    color: #5F287E;
+}
+
+section.celula-animal div.blocos{
+    justify-content: space-between;
+    display: flex;
+}
+
+section.celula-animal div.conteudo div{
+    background-color: #C3AAFF;
+    padding: 1vw 3vw 2vw 3vw;
+    border-radius: 30px;
+    margin: 1vw 2vw 2vw 1vw;
+}
+
+section.celula-animal div.conteudo div h2{
+    background-color: white;
+    justify-content: center;
+    text-align: center;
+    font-size: 2.3rem;
+    border-radius: 10px;
+    padding: 0.5vw;
+    margin: 0 25vw 2vw 25vw;
+}
+
+section.celula-animal div.fontes{
+    justify-content: center;
+    margin: 2vw 4vw 3vw 3vw;
+}
+
+section.celula-animal div.fontes img{
+    width: 22vw;
+}
+
+section.celula-animal div.fontes p{
+    margin-left: 2vw;
+    font-weight: 500;
+}
+
+/*==============================
+    Formatação footer
+=============================*/
+
+footer{
+    background-color: #020734;
+    color: white;
+    padding: 5vw 0 5vw 0;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
