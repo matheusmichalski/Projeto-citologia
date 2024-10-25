@@ -10,6 +10,7 @@ header {
     justify-content: space-between;
     position: fixed;
     width: 100%;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.489);
 }
 
 
@@ -58,7 +59,7 @@ section.celulas h1{
 section.celulas div.bloco-celulas{
     display: flex;
     justify-content: space-between;
-    margin: 0 20vw 7vw 20vw;
+    margin: 0 25vw 7vw 25vw;
 }
 
 section.celulas div.bloco-celulas div.escolha-celula{
