@@ -74,6 +74,13 @@ section.celulas h1{
     color: #020734;
 }
 
+section.celulas div.introducao {
+    background-color: #C3AAFF;
+    padding: 4vw;
+    margin: 2vw 8vw 3vw 8vw;
+    border-radius: 20px;
+}
+
 section.celulas div.bloco-celulas{
     display: flex;
     justify-content: space-between;
