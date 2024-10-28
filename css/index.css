@@ -145,30 +145,6 @@ section.celulas div.bloco-celulas div.escolha-celula a {
 
 .accordion:after {
     content: '\002B';
-    /* Sinal de mais (+) */
-    font-size: 18px;
-    float: right;
-}
-
-.accordion.active:after {
-    content: "\2212";
-    /* Sinal de menos (−) */
-}
-
-.panel {
-    padding: 0 18px;
-    display: none;
-    background-color: white;
-    overflow: hidden;
-}
-
-
-.accordion:hover {
-    background-color: #ccc;
-}
-
-.accordion:after {
-    content: '\002B';
     font-size: 18px;
     float: right;
 }
