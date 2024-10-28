@@ -63,8 +63,8 @@ section.celula-conteudo {
   margin: 2vw 2vw 2vw 2vw;
 }
 
-section.celula-conteudo div h1 {
-  padding: 0 3vw 3vw 3vw;
+section.celula-conteudo h1 {
+  padding: 2vw 0vw 2vw 0vw;
   font-size: 3rem;
   text-align: center;
   justify-content: center;
@@ -174,48 +174,52 @@ section.botoes ul li a {
 }
 
 
-accordion {
-  background-color: #f1f1f1;
-  color: #444;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 18px;
-  transition: background-color 0.2s ease;
-}
 
 /*==============================
-   Formatação referências
+Formatação referências
 =============================*/
 
+/* Estilo do botão recolhível */
 
-
-.accordion:hover {
-  background-color: #ccc;
+.ref {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* Centraliza o botão horizontalmente */
+  /* Ajusta a posição vertical */
+  margin: 5vw 12vw 10vw 12vw;
+  font-size: 1.3rem;
 }
 
-.accordion:after {
-  content: '\002B';
-  /* Sinal de mais (+) */
-  font-size: 18px;
-  float: right;
+
+
+.accordion {
+  background-color: #f1f1f1;
+  color: #000000;
+  cursor: pointer;
+  padding: 18px 24px;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 1.4rem;
+  transition: background-color 0.2s ease;
+  width: 100%;
+  /* O botão se adapta ao contêiner */
+  border-radius: 8px;
+  /* Cantos arredondados */
 }
 
-.accordion.active:after {
-  content: "\2212";
-  /* Sinal de menos (−) */
-}
-
+/* Painel oculto */
 .panel {
-  padding: 0 18px;
   display: none;
   background-color: white;
   overflow: hidden;
+  margin-top: 20px;
+  line-height: 35px;
+  font-size: 1.4rem;
+  text-align: center;
+  /* Espaço entre o botão e o painel */
 }
-
 
 
 /*==============================
