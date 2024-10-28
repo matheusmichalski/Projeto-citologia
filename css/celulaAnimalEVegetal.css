@@ -138,12 +138,12 @@ section.organelas h2 {
   text-align: center;
 }
 
-section.organelas div {
-  background-color: #C3AAFF;
-  padding: 8vw 3vw 8vw 2vw;
-  margin: 1.2vw 10vw 3vw 10vw;
-  border-radius: 30px;
-  line-height: 25px;
+section.organelas h2 a{
+    text-decoration: none;
+    color: white;
+    background-color: #020734;
+    padding: 1vw;
+    border-radius: 20px;
 }
 
 
