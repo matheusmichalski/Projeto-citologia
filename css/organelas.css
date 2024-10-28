@@ -23,7 +23,6 @@ header {
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.489);
 }
 
-
 header ul {
   display: flex;
   padding: 1.2vw 4vw 0.8vw 1vw;
@@ -60,18 +59,32 @@ section.banner img {
 ==============================*/
 
 section.celula-conteudo {
-  margin: 2vw 2vw 2vw 2vw;
+  margin: 0 10vw 0 10vw;
 }
 
+
+
+
 section.celula-conteudo h1 {
-  padding: 2vw 0vw 2vw 0vw;
+  padding: 7.5vw 0vw 4vw 0vw;
   font-size: 3rem;
   text-align: center;
   justify-content: center;
   color: #5F287E;
 }
 
+section.celula-conteudo div.conteudo div img {
+  align-items: center;
+}
 
+
+
+section.celula-conteudo div.conteudo div ul li {
+  padding: 0 0 4vw 0;
+  font-size: 1.2rem;
+  text-align: start;
+  justify-content: center;
+}
 
 section.celula-conteudo div.blocos {
   justify-content: space-between;
@@ -84,6 +97,16 @@ section.celula-conteudo div img {
   padding: 0 0 0 2vw;
 }
 
+section.celula-conteudo div.conteudo div h2 {
+  background-color: white;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  padding: 0.5vw;
+  margin: 0 25vw 2vw 25vw;
+}
+
 section.celula-conteudo div.conteudo {
   background-color: #C3AAFF;
   padding: 2vw 3vw 2vw 3vw;
@@ -91,47 +114,19 @@ section.celula-conteudo div.conteudo {
   margin: 0vw 0vw 2vw 0vw;
   line-height: 25px;
   font-size: 1.5rem;
-  ;
 }
 
 section.celula-conteudo div.conteudo p {
   padding: 1.5vw 0vw 0.6vw 0vw;
   margin: 0vw 0vw 2vw 0vw;
-  ;
 }
 
 section.celula-conteudo div.conteudo ul li {
   padding: 0vw 0vw 0.2vw 0vw;
   margin: 0vw 0vw 2vw 0vw;
   font-size: 1.5rem;
-
 }
 
-
-section.celula-conteudo div.conteudo div h2 {
-  background-color: white;
-  justify-content: center;
-  text-align: center;
-  font-size: 2.3rem;
-  border-radius: 10px;
-  padding: 0 0 10vw 0;
-  margin: 0vw 25vw 2vw 25vw;
-}
-
-section.celula-conteudo div.fontes {
-  justify-content: center;
-  margin: 2vw 4vw 3vw 3vw;
-}
-
-section.celula-conteudo div.fontes img {
-  width: 22vw;
-}
-
-section.celula-conteudo div.fontes p {
-  margin-left: 2vw;
-  font-weight: 500;
-  margin: 1vw 0 1vw 1vw;
-}
 
 section.organelas h2 {
   font-size: 2.3rem;
@@ -139,23 +134,13 @@ section.organelas h2 {
   text-align: center;
 }
 
-<<<<<<< HEAD
-section.organelas h2 a{
-    text-decoration: none;
-    color: white;
-    background-color: #020734;
-    padding: 1vw;
-    border-radius: 20px;
-=======
 section.organelas div {
   background-color: #C3AAFF;
   padding: 8vw 3vw 8vw 2vw;
   margin: 1.2vw 10vw 3vw 10vw;
   border-radius: 30px;
-  line-height: 2px;
->>>>>>> 46050771aaed7eda2c2adeb5191686d5600925c1
+  line-height: 20px;
 }
-
 
 /*==============================
     Redirecionamento de páginas
@@ -183,8 +168,6 @@ section.botoes ul li a {
   border-radius: 20px;
 }
 
-
-
 /*==============================
 Formatação referências
 =============================*/
@@ -195,8 +178,6 @@ Formatação referências
   display: flex;
   justify-content: center;
   flex-direction: column;
-  /* Centraliza o botão horizontalmente */
-  /* Ajusta a posição vertical */
   margin: 5vw 20vw 10vw 20vw;
   font-size: 1.3rem;
 }
@@ -216,9 +197,7 @@ div.ref img {
   font-size: 1.5rem;
   transition: background-color 0.2s ease;
   width: 100%;
-  /* O botão se adapta ao contêiner */
   border-radius: 8px;
-  /* Cantos arredondados */
 }
 
 /* Painel oculto */
@@ -230,9 +209,7 @@ div.ref img {
   line-height: 35px;
   font-size: 1.4rem;
   text-align: center;
-  /* Espaço entre o botão e o painel */
 }
-
 
 /*==============================
     Formatação footer
