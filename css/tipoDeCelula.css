@@ -70,18 +70,22 @@ section h1 {
     color: #5F287E;
 }
 
-section.celula-conteudo div.texto {
+section.celula-conteudo div.texto-um section.celula-conteudo div.texto {
+    text-align: start;
     justify-content: space-between;
     justify-content: center;
     flex-direction: column;
 }
 
-section.celula-conteudo div.blocos div.texto ul{
+section.celula-conteudo div.blocos div.texto ul {
     display: flex;
     justify-content: space-between;
+    font-size: 1.4rem;
+    line-height: 30px;
+
 }
 
-section.celula-conteudo div.blocos div.texto ul li{
+section.celula-conteudo div.blocos div.texto ul li {
     justify-content: space-between;
     background-color: #C3AAFF;
     text-align: center;
@@ -90,23 +94,23 @@ section.celula-conteudo div.blocos div.texto ul li{
     padding: 1vw 0 1vw 0;
 }
 
-section.celula-conteudo div.blocos div.texto ul li h2{
-    padding: 1vw;
+section.celula-conteudo div.blocos div.texto ul li h2 {
+    padding: 1vw 0 1vw 0;
     background-color: white;
     font-size: 1.2rem;
-    margin: 0 20vw 0 20vw;
+    margin: 0 10vw 0 10vw;
     border-radius: 20px;
 }
 
-section.celula-conteudo div.blocos div.texto-um{
+section.celula-conteudo div.blocos div.texto-um {
     background-color: #C3AAFF;
     border-radius: 30px;
     padding: 1vw 1vw 2vw 1vw;
     margin: 1vw 0 1vw 0;
+    font-size: 1.4rem;
 }
 
 section.celula-conteudo div.fontes {
-    justify-content: space-between;
     text-align: center;
 }
 
@@ -145,11 +149,11 @@ section.botoes ul li a {
     border-radius: 100px;
 }
 
-div.texto-um p{
+div.texto-um p {
     margin-top: 1vw;
 }
 
-section.celula-conteudo div.exemplos{
+section.celula-conteudo div.exemplos {
     background-color: #020734;
     color: white;
     padding: 2vw;
@@ -157,7 +161,7 @@ section.celula-conteudo div.exemplos{
     border-radius: 20px;
 }
 
-section.celula-conteudo div.exemplos h3{
+section.celula-conteudo div.exemplos h3 {
     font-size: 1.2rem;
     background-color: white;
     margin: 0 40vw 1vw 40vw;
@@ -166,11 +170,11 @@ section.celula-conteudo div.exemplos h3{
     border-radius: 10px;
 }
 
-div.animal-e-vegetal{
+div.animal-e-vegetal {
     text-align: center;
 }
 
-div.animal-e-vegetal h2{
+div.animal-e-vegetal h2 {
     font-size: 1.3rem;
     margin-top: 1vw;
 }
@@ -188,11 +192,11 @@ div.animal-e-vegetal ul {
     margin: 0 30vw 0 30vw;
 }
 
-div.animal-e-vegetal ul li{
+div.animal-e-vegetal ul li {
     margin: 3vw 0 3vw 0;
 }
 
-div.animal-e-vegetal ul li a{
+div.animal-e-vegetal ul li a {
     color: white;
     text-decoration: none;
     background-color: #020734;

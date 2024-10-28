@@ -139,116 +139,101 @@ section.organelas h2 {
   text-align: center;
 }
 
-section.organelas h2 a {
-  text-decoration: none;
-  color: white;
-  background-color: #020734;
-  padding: 1vw;
-  border-radius: 20px;
-
-  <<<<<<< HEAD section.organelas h2 a {
-    text-decoration: none;
-    color: white;
-    background-color: #020734;
-    padding: 1vw;
-    border-radius: 20px;
-
-    =======section.organelas div {
-      background-color: #C3AAFF;
-      padding: 8vw 3vw 8vw 2vw;
-      margin: 1.2vw 10vw 3vw 10vw;
-      border-radius: 30px;
-      line-height: 2px;
-      >>>>>>>46050771aaed7eda2c2adeb5191686d5600925c1
-    }
+section.organelas div {
+  background-color: #C3AAFF;
+  padding: 8vw 3vw 8vw 2vw;
+  margin: 1.2vw 10vw 3vw 10vw;
+  border-radius: 30px;
+  line-height: 2px;
+}
 
 
-    /*==============================
+/*==============================
     Redirecionamento de páginas
 =============================*/
 
-    section.botoes {
-      justify-content: center;
-      background-color: #C3AAFF;
-      padding: 3vw 8vw 3vw 8vw;
-      margin: 2vw 16vw 2vw 16vw;
-      border-radius: 30px;
-    }
+section.botoes {
+  justify-content: center;
+  background-color: #C3AAFF;
+  padding: 3vw 8vw 3vw 8vw;
+  margin: 2vw 16vw 2vw 16vw;
+  border-radius: 30px;
+}
 
-    section.botoes ul {
-      display: flex;
-      justify-content: space-between;
-    }
+section.botoes ul {
+  display: flex;
+  justify-content: space-between;
+}
 
-    section.botoes ul li a {
-      color: white;
-      text-decoration: none;
-      font-size: 1.2rem;
-      background-color: #5F287E;
-      padding: 1vw 2vw 1vw 2vw;
-      border-radius: 20px;
-    }
+section.botoes ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  background-color: #5F287E;
+  padding: 1vw 2vw 1vw 2vw;
+  border-radius: 20px;
+}
 
 
 
-    /*==============================
+/*==============================
 Formatação referências
 =============================*/
 
-    /* Estilo do botão recolhível */
+/* Estilo do botão recolhível */
 
-    .ref {
-      display: flex;
-      justify-content: center;
-      flex-direction: column;
-      /* Centraliza o botão horizontalmente */
-      /* Ajusta a posição vertical */
-      margin: 5vw 20vw 10vw 20vw;
-      font-size: 1.3rem;
-    }
+.ref {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* Centraliza o botão horizontalmente */
+  /* Ajusta a posição vertical */
+  margin: 5vw 20vw 10vw 20vw;
+  font-size: 1.3rem;
+}
 
-    div.ref img {
-      margin: 0 0 0 5px;
-    }
+div.ref img {
+  margin: 0 0 0 5px;
+}
 
-    .accordion {
-      background-color: #C3AAFF;
-      color: #000000;
-      cursor: pointer;
-      padding: 18px 24px;
-      border: none;
-      text-align: center;
-      outline: none;
-      font-size: 1.5rem;
-      transition: background-color 0.2s ease;
-      width: 100%;
-      /* O botão se adapta ao contêiner */
-      border-radius: 8px;
-      /* Cantos arredondados */
-    }
+.accordion {
+  background-color: #C3AAFF;
+  color: #000000;
+  cursor: pointer;
+  padding: 18px 24px;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 1.5rem;
+  transition: background-color 0.2s ease;
+  width: 100%;
+  /* O botão se adapta ao contêiner */
+  border-radius: 8px;
+  /* Cantos arredondados */
+}
 
-    /* Painel oculto */
-    .panel {
-      display: none;
-      background-color: white;
-      overflow: hidden;
-      margin-top: 20px;
-      line-height: 35px;
-      font-size: 1.4rem;
-      text-align: center;
-      /* Espaço entre o botão e o painel */
-    }
+/* Painel oculto */
+.panel {
+  display: none;
+  background-color: white;
+  overflow: hidden;
+  margin-top: 20px;
+  line-height: 35px;
+  font-size: 1.4rem;
+  text-align: center;
+  /* Espaço entre o botão e o painel */
+}
 
 
-    /*==============================
+/*==============================
     Formatação footer
 =============================*/
 
-    footer {
-      background-color: #020734;
-      color: white;
-      padding: 4vw 0 4vw 0;
-      text-align: center;
-      font-size: 1.1rem;
-      font-weight: 600;
-    }
+footer {
+  background-color: #020734;
+  color: white;
+  padding: 4vw 0 4vw 0;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
