@@ -1,0 +1,232 @@
+/*====================================
+    Formatação geral
+=====================================*/
+
+body {
+  font-family: "Itim", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*====================================
+    Formatação header
+=====================================*/
+
+header {
+  background-color: #D0CFD3;
+  padding: 1.5vw 2vw 1vw 2vw;
+  color: #2e1089;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.489);
+}
+
+
+header ul {
+  display: flex;
+  padding: 1.2vw 4vw 0.8vw 1vw;
+}
+
+header ul li {
+  padding: 0 1vw 0 1vw;
+  font-size: 1.25rem;
+  cursor: pointer;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: #2e1089;
+}
+
+.paginaAtual {
+  background-color: white;
+  padding: 0.5vw;
+  border-radius: 100px;
+}
+
+/*==============================
+    Formatação banner
+================================*/
+
+section.banner img {
+  width: 100%;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.491);
+}
+
+/*=============================
+    Formatação meio
+==============================*/
+
+section.celula-conteudo {
+  margin: 2vw 2vw 2vw 2vw;
+}
+
+section.celula-conteudo div h1 {
+  padding: 0 3vw 3vw 3vw;
+  font-size: 3rem;
+  text-align: center;
+  justify-content: center;
+  color: #5F287E;
+}
+
+
+
+section.celula-conteudo div.blocos {
+  justify-content: space-between;
+  display: flex;
+}
+
+section.celula-conteudo div img {
+  border-radius: 25px;
+  height: 39.3vw;
+  padding: 0 0 0 2vw;
+}
+
+section.celula-conteudo div.conteudo {
+  background-color: #C3AAFF;
+  padding: 2vw 3vw 2vw 3vw;
+  border-radius: 30px;
+  margin: 0vw 0vw 2vw 0vw;
+  line-height: 25px;
+  font-size: 1.5rem;
+  ;
+}
+
+section.celula-conteudo div.conteudo p {
+  padding: 1.5vw 0vw 0.6vw 0vw;
+  margin: 0vw 0vw 2vw 0vw;
+  ;
+}
+
+section.celula-conteudo div.conteudo ul li {
+  padding: 0vw 0vw 0.2vw 0vw;
+  margin: 0vw 0vw 2vw 0vw;
+  font-size: 1.5rem;
+
+}
+
+
+section.celula-conteudo div.conteudo div h2 {
+  background-color: white;
+  justify-content: center;
+  text-align: center;
+  font-size: 2.3rem;
+  border-radius: 10px;
+  padding: 0.5vw;
+  margin: 0 25vw 2vw 25vw;
+}
+
+section.celula-conteudo div.fontes {
+  justify-content: center;
+  margin: 2vw 4vw 3vw 3vw;
+}
+
+section.celula-conteudo div.fontes img {
+  width: 22vw;
+}
+
+section.celula-conteudo div.fontes p {
+  margin-left: 2vw;
+  font-weight: 500;
+  margin: 1vw 0 1vw 1vw;
+}
+
+section.organelas h2 {
+  font-size: 2.3rem;
+  text-align: center;
+}
+
+section.organelas div {
+  background-color: #C3AAFF;
+  padding: 8vw 3vw 8vw 2vw;
+  margin: 1.2vw 10vw 3vw 10vw;
+  border-radius: 30px;
+  line-height: 25px;
+}
+
+
+/*==============================
+    Redirecionamento de páginas
+=============================*/
+
+section.botoes {
+  justify-content: center;
+  background-color: #C3AAFF;
+  padding: 3vw 8vw 3vw 8vw;
+  margin: 2vw 16vw 2vw 16vw;
+  border-radius: 30px;
+}
+
+section.botoes ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+section.botoes ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  background-color: #5F287E;
+  padding: 1vw 2vw 1vw 2vw;
+  border-radius: 20px;
+}
+
+
+accordion {
+  background-color: #f1f1f1;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 18px;
+  transition: background-color 0.2s ease;
+}
+
+/*==============================
+   Formatação referências
+=============================*/
+
+
+
+.accordion:hover {
+  background-color: #ccc;
+}
+
+.accordion:after {
+  content: '\002B';
+  /* Sinal de mais (+) */
+  font-size: 18px;
+  float: right;
+}
+
+.accordion.active:after {
+  content: "\2212";
+  /* Sinal de menos (−) */
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+
+
+
+/*==============================
+    Formatação footer
+=============================*/
+
+footer {
+  background-color: #020734;
+  color: white;
+  padding: 4vw 0 4vw 0;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
