@@ -6,7 +6,39 @@ body {
   font-family: "Itim", cursive;
   font-weight: 400;
   font-style: normal;
-  
+
+}
+
+div.ref img {
+  margin: 0 0 0 5px;
+}
+
+.accordion {
+  background-color: #C3AAFF;
+  color: #000000;
+  cursor: pointer;
+  padding: 18px 24px;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 1.5rem;
+  transition: background-color 0.2s ease;
+  width: 100%;
+  /* O botão se adapta ao contêiner */
+  border-radius: 8px;
+  /* Cantos arredondados */
+}
+
+/* Painel oculto */
+.panel {
+  display: none;
+  background-color: white;
+  overflow: hidden;
+  margin-top: 20px;
+  line-height: 35px;
+  font-size: 1.4rem;
+  text-align: center;
+  /* Espaço entre o botão e o painel */
 }
 
 
@@ -63,7 +95,7 @@ section.banner img {
 
 section.celula-conteudo {
   margin: 0 10vw 0 10vw;
-  
+
 }
 
 
@@ -118,7 +150,7 @@ section.celula-conteudo div.conteudo {
   margin: 0vw 0vw 2vw 0vw;
   line-height: 25px;
   font-size: 1.5rem;
-  
+
 }
 
 section.celula-conteudo div.conteudo p {
@@ -183,19 +215,20 @@ Formatação referências
   display: flex;
   justify-content: center;
   flex-direction: column;
+  /* Centraliza o botão horizontalmente */
+  /* Ajusta a posição vertical */
   margin: 5vw 20vw 10vw 20vw;
   font-size: 1.3rem;
 }
 
-div.ref img {
-  margin: 0 0 0 5px;
-}
 
 .accordion {
   background-color: #C3AAFF;
+  /* Cor do fundo do botão */
   color: #000000;
   cursor: pointer;
   padding: 18px 24px;
+  /* Ajuste do padding */
   border: none;
   text-align: center;
   outline: none;
@@ -203,6 +236,21 @@ div.ref img {
   transition: background-color 0.2s ease;
   width: 100%;
   border-radius: 8px;
+  display: flex;
+  /* Para permitir o alinhamento da seta */
+  justify-content: space-between;
+  /* Espaço entre texto e seta */
+  align-items: center;
+  /* Centraliza verticalmente */
+}
+
+.arrow {
+  width: 20px;
+  /* Ajuste o tamanho da seta conforme necessário */
+  height: auto;
+  /* Mantém a proporção */
+  margin-left: 10px;
+  /* Espaço entre o texto e a seta */
 }
 
 /* Painel oculto */
@@ -215,6 +263,7 @@ div.ref img {
   font-size: 1.4rem;
   text-align: center;
 }
+
 
 /*==============================
     Formatação footer

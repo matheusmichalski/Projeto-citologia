@@ -8,6 +8,7 @@ body {
     font-style: normal;
 }
 
+
 /*====================================
     Formatação header
 =====================================*/
@@ -203,6 +204,62 @@ div.animal-e-vegetal ul li a {
     padding: 2vw;
     border-radius: 10px;
 }
+
+
+.ref {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* Centraliza o botão horizontalmente */
+    /* Ajusta a posição vertical */
+    margin: 5vw 20vw 10vw 20vw;
+    font-size: 1.3rem;
+}
+
+
+.accordion {
+    background-color: #C3AAFF;
+    /* Cor do fundo do botão */
+    color: #000000;
+    cursor: pointer;
+    padding: 18px 24px;
+    /* Ajuste do padding */
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 1.5rem;
+    transition: background-color 0.2s ease;
+    width: 100%;
+    border-radius: 8px;
+    display: flex;
+    /* Para permitir o alinhamento da seta */
+    justify-content: space-between;
+    /* Espaço entre texto e seta */
+    align-items: center;
+    /* Centraliza verticalmente */
+}
+
+.arrow {
+    width: 20px;
+    /* Ajuste o tamanho da seta conforme necessário */
+    height: auto;
+    /* Mantém a proporção */
+    margin-left: 10px;
+    /* Espaço entre o texto e a seta */
+}
+
+/* Painel oculto */
+.panel {
+    display: none;
+    background-color: white;
+    overflow: hidden;
+    margin-top: 20px;
+    line-height: 35px;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+
 
 /*==============================
     Formatação footer
