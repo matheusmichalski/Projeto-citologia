@@ -63,53 +63,58 @@ section.celula-conteudo {
     margin: 2vw 2vw 2vw 2vw;
 }
 
-section.celula-conteudo div h1 {
+section h1 {
     font-size: 3rem;
     text-align: center;
     justify-content: center;
     color: #5F287E;
 }
 
-section.celula-conteudo div.blocos {
+section.celula-conteudo div.texto {
     justify-content: space-between;
     justify-content: center;
     flex-direction: column;
 }
 
-section.celula-conteudo div.blocos div.texto-baixo {
+section.celula-conteudo div.blocos div.texto ul{
     display: flex;
-    width: 100%;
+    justify-content: space-between;
 }
 
-section.celula-conteudo div.blocos div div {
-    display: flex;
-    justify-content: space-around;
-}
-
-section.celula-conteudo div.conteudo div {
+section.celula-conteudo div.blocos div.texto ul li{
+    justify-content: space-between;
     background-color: #C3AAFF;
-    padding: 1vw 3vw 2vw 3vw;
+    text-align: center;
     border-radius: 30px;
-    margin: 1vw 2vw 2vw 1vw;
+    margin: 1vw 1vw 1vw 0;
+    padding: 1vw 0 1vw 0;
 }
 
-section.celula-conteudo div.conteudo div h2 {
+section.celula-conteudo div.blocos div.texto ul li h2{
+    padding: 1vw;
     background-color: white;
-    justify-content: center;
-    text-align: center;
-    font-size: 2.3rem;
-    border-radius: 10px;
-    padding: 0.5vw;
-    margin: 0 25vw 2vw 25vw;
+    font-size: 1.2rem;
+    margin: 0 20vw 0 20vw;
+    border-radius: 20px;
+}
+
+section.celula-conteudo div.blocos div.texto-um{
+    background-color: #C3AAFF;
+    border-radius: 30px;
+    padding: 1vw 1vw 2vw 1vw;
+    margin: 1vw 0 1vw 0;
 }
 
 section.celula-conteudo div.fontes {
-    justify-content: center;
-    margin: 2vw 4vw 3vw 3vw;
+    justify-content: space-between;
+    text-align: center;
 }
 
 section.celula-conteudo div.fontes img {
     width: 22vw;
+    margin: 1vw;
+    justify-content: space-between;
+    margin: 1vw 2vw 2vw 2vw;
 }
 
 section.celula-conteudo div.fontes p {
@@ -138,6 +143,61 @@ section.botoes ul li a {
     background-color: #5F287E;
     padding: 2vw;
     border-radius: 100px;
+}
+
+div.texto-um p{
+    margin-top: 1vw;
+}
+
+section.celula-conteudo div.exemplos{
+    background-color: #020734;
+    color: white;
+    padding: 2vw;
+    text-align: center;
+    border-radius: 20px;
+}
+
+section.celula-conteudo div.exemplos h3{
+    font-size: 1.2rem;
+    background-color: white;
+    margin: 0 40vw 1vw 40vw;
+    padding: 1vw;
+    color: black;
+    border-radius: 10px;
+}
+
+div.animal-e-vegetal{
+    text-align: center;
+}
+
+div.animal-e-vegetal h2{
+    font-size: 1.3rem;
+    margin-top: 1vw;
+}
+
+div.animal-e-vegetal p {
+    background-color: #C3AAFF;
+    padding: 1vw;
+    margin: 1vw;
+    border-radius: 20px;
+}
+
+div.animal-e-vegetal ul {
+    justify-content: space-between;
+    display: flex;
+    margin: 0 30vw 0 30vw;
+}
+
+div.animal-e-vegetal ul li{
+    margin: 3vw 0 3vw 0;
+}
+
+div.animal-e-vegetal ul li a{
+    color: white;
+    text-decoration: none;
+    background-color: #020734;
+    padding: 2vw;
+    border-radius: 10px;
 }
 
 /*==============================
