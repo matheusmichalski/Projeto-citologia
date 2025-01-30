@@ -10,19 +10,29 @@
 	<link rel="stylesheet" href="css/reset.css" />
 	<link rel="stylesheet" href="css/index.css" />
 	<link rel="stylesheet" href="css/header.css">
-	
+	<link rel="stylesheet" href="css/referencias.css">
+	<link rel="stylesheet" href="css/footer.css">
+
 </head>
 
 <body>
 	<main>
 		<header>
 			<ul>
-				<li><a href="sobre_nos.html">Sobre nós</a></li>
+				<li><a href="sobre_nos.html"><button class="sobreNos">Sobre nós</button></a></li>
 				<li><a href="index.html"><span class="fa-solid fa-house" style="color: #2e1089;"></span></a></li>
-				<li><a href="#">Citologia <i class="fa-solid fa-arrow-down" style="color: #2e1089;"></i></a></li>
+				<li><button id="citologiaBtn">Citologia</button></li>
 			</ul>
 		</header>
 		
+		<div id="citologiaPopup" class="popup">
+			<div class="popup-content">
+				<span class="close">&times;</span>
+				<p>Conteúdo de Citologia aqui!</p>
+			</div>
+		</div>
+		
+
 		<section class="banner">
 			<div class="texto">
 				<h1>Citologia</h1>
@@ -32,24 +42,57 @@
 		</section>
 		<section class="textoCentral">
 			<h2>O que é?</h2>
-			
-			<p>É a ciência que estuda as células e suas propriedades. A palavra Citologia vem do grego, Kytos: célula e Logos: estudo. Ela é muito importante para que possamos entender as complexidades dos seres vivos, pois as células são unidades fundamentais da vida. A partir dela que os cientistas descobriram que as formas de vida são compostas por células, que variam em tamanho, forma e função. Mas antes vamos voltar um pouco. O microscópio foi criado por Zacharias Jansen e seu pai Hans (fabricantes de óculos ) na década de 1590, um tempo depois em 1663, um homem chamado Robert Hooke (cientista), resolveu cortar um pedaço de cortiça. Um material leve e isolante extraído da casca do sobreiro (Quercus suber) e observar no microscópio, viu que havia compartimentos, e deu o nome de células. E foi depois desses acontecimentos que a Citologia começou a evoluir e ser cada vez mais estudada.</p>
-			
+
+			<p>É a ciência que estuda as células e suas propriedades. A palavra Citologia vem do grego, Kytos: célula e
+				Logos: estudo. Ela é muito importante para que possamos entender as complexidades dos seres vivos, pois
+				as células são unidades fundamentais da vida. A partir dela que os cientistas descobriram que as formas
+				de vida são compostas por células, que variam em tamanho, forma e função. Mas antes vamos voltar um
+				pouco. O microscópio foi criado por Zacharias Jansen e seu pai Hans (fabricantes de óculos ) na década
+				de 1590, um tempo depois em 1663, um homem chamado Robert Hooke (cientista), resolveu cortar um pedaço
+				de cortiça. Um material leve e isolante extraído da casca do sobreiro (Quercus suber) e observar no
+				microscópio, viu que havia compartimentos, e deu o nome de células. E foi depois desses acontecimentos
+				que a Citologia começou a evoluir e ser cada vez mais estudada.</p>
+
 			<h2>Diferença das células procariontes e eucariontes</h2>
-			
-			<p>Acredito que grande parte das pessoas já ouviram falar pelo menos uma vez na vida sobre células eucariontes e procariontes, mas o que isso significa? Aprender a diferença entre esses dois tipos é fundamental para o avanço do conhecimento científico, da inovação na saúde e da biodiversidade.</p>
+
+			<p>Acredito que grande parte das pessoas já ouviram falar pelo menos uma vez na vida sobre células
+				eucariontes e procariontes, mas o que isso significa? Aprender a diferença entre esses dois tipos é
+				fundamental para o avanço do conhecimento científico, da inovação na saúde e da biodiversidade.</p>
 		</section>
 		<section class="procarionteEucarionte">
 			<div class="procarionte">
-				<h3>Procarionte</h3>
-				<button>+</button>
+				<p>Procarionte</p>
+				<a href="celula_procarionte.html">+</a>
 			</div>
-			<img src="src/images/Fundo 2.png" alt="">
 			<div class="eucarionte">
-				<h3>Eucarionte</h3>
-				<button>+</button>
+				<p>Eucarionte</p>
+				<a href="celula_eucarionte.html">+</a>
 			</div>
 		</section>
+
+		<div class="button-container">
+			<div class="ref">
+				<button class="accordion">Referências
+					<span class="fa-solid fa-arrow-down" style="color: #5F287E;"></span>
+				</button>
+				<div class="panel">
+					<ul>
+						<li><a
+								href="https://kasvi.com.br/microscopio-microscopia-historia-evolucao/#:~:text=O%20primeiro%20microsc%C3%B3pio,e%20fizeram%20uma%20descoberta%20importante">Kasvi</a>
+						</li>
+						<li><a
+								href="https://pt.wikipedia.org/wiki/Corti%C3%A7a#:~:text=Corti%C3%A7a%20%C3%A9%20um%20material%20de,se%20acumula%20na%20parede%20celular">Wikipédia</a>
+						</li>
+						<li><a
+								href="https://brasilescola.uol.com.br/biologia/nivel-celula.htm#:~:text=A%20citologia%20%C3%A9%20a%20ci%C3%AAncia,c%C3%A9lulas%2C%20suas%20estruturas%20e%20fun%C3%A7%C3%B5es">Brasil Escola</a>
+						</li>
+						<li>
+							<a href="https://www.todamateria.com.br/citologia/">Toda Matéria</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
 
 
 		<footer>

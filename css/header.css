@@ -5,21 +5,53 @@ header {
     position: fixed;
     width: 96vw;
     z-index: 10;
-    background-color: white;
+    background-color: transparent;
+    transition: background-color 0.5s ease;
+}
 
+ul {
+    display: flex;
+    justify-content: center;
+    padding: 1vw;
+}
 
-    ul {
-        display: flex;
-        justify-content: center;
-        padding: 1vw;
+li {
+    padding: 0 2vw;
+}
 
-        li{
-            padding: 0 2vw 0 2vw;
+button {
+    text-decoration: none;
+    color: #2E1089;
+    background-color: transparent;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
 
-            a{
-                text-decoration: none;
-                color: #2E1089;
-            }
-        }
-    }
+.popup {
+    display: none;
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.popup-content {
+    position: relative;
+    margin: 6.9% auto;
+    padding: 20px;
+    background-color: #F3DEFF;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 400px;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
 }
