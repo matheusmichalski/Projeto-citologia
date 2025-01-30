@@ -41,7 +41,7 @@ button {
 .popup-content {
     display: flex;
     position: relative;
-    margin: 6.75vw auto;
+    margin: 6.17vw auto;
     padding: 2vw;
     background-color: #F3DEFF;
     border-radius: 0 0 10px 10px;
@@ -75,7 +75,7 @@ button {
 .flex {
     display: flex;
     align-items: center;
-    margin-top: 0.68vw;
+    margin-top: 0.5vw;
     
     p {
         margin-left: 1vw;
