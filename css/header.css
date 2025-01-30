@@ -3,7 +3,7 @@ header {
     margin: 2vw;
     border-radius: 1000px;
     position: fixed;
-    width: 96vw;
+    width: 95vw;
     z-index: 10;
     background-color: transparent;
     transition: background-color 0.5s ease;
@@ -12,7 +12,7 @@ header {
 ul {
     display: flex;
     justify-content: center;
-    padding: 1vw;
+    padding: 1vw 1vw 0 1vw;
 }
 
 li {
@@ -39,13 +39,15 @@ button {
 }
 
 .popup-content {
+    display: flex;
     position: relative;
-    margin: 6.9% auto;
-    padding: 20px;
+    margin: 6.75vw auto;
+    padding: 2vw;
     background-color: #F3DEFF;
-    border-radius: 10px;
-    width: 80%;
-    max-width: 400px;
+    border-radius: 0 0 10px 10px;
+    width: 87.5vw;
+    margin-left: 3.8vw;
+    justify-content: space-evenly;
 }
 
 .close {
@@ -54,4 +56,43 @@ button {
     right: 10px;
     font-size: 1.5rem;
     cursor: pointer;
+}
+
+.eucarionteHeader,
+.procarionteHeader{
+    a {
+        display: flex;
+        text-decoration: none;
+        color: #5F287E;
+        align-items: center;
+
+        p {
+            margin-left: 1vw;
+        }
+    }
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    margin-top: 0.68vw;
+    
+    p {
+        margin-left: 1vw;
+    }
+}
+
+ul.minhaLista {
+    list-style-type: none;
+    display: none;
+    
+    li {
+    margin: 0.5vw;
+    padding: 0.5vw;
+    
+    a {
+        font-size: 0.8rem;
+    }
+
+}
 }

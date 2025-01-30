@@ -24,14 +24,32 @@
 				<li><button id="citologiaBtn">Citologia</button></li>
 			</ul>
 		</header>
-		
+
 		<div id="citologiaPopup" class="popup">
 			<div class="popup-content">
-				<span class="close">&times;</span>
-				<p>Conteúdo de Citologia aqui!</p>
+				<span class="close"></span>
+				<div class="procarionteHeader">
+					<a href="celula_procarionte.html">
+						<img src="src/images/ProcarionteMenor.png" alt="">
+						<p>Procarionte</p>
+					</a>
+				</div>
+				<div class="eucarionteHeader">
+					<button class="flex" onclick="mostrarLista()">
+						<img src="src/images/Eucarionte_4.png" alt="">
+						<p>Eucarionte</p>
+					</button>
+					<ul id="minhaLista" class="minhaLista">
+						<li><a href="celula_eucarionte.html">Eucariontes</a></li>
+						<li><a href="celula_animal.html">Animal</a></li>
+						<li><a href="celula_vegetal.html">Vegetal</a></li>
+						<li><a href="organelas.html">Organelas</a></li>
+					</ul>
+
+				</div>
 			</div>
 		</div>
-		
+
 
 		<section class="banner">
 			<div class="texto">
@@ -70,27 +88,17 @@
 			</div>
 		</section>
 
-		<div class="button-container">
 			<div class="ref">
-				<button class="accordion">Referências
+				<button class="referencias" onclick="mostrarReferencias()">
+					<p>Referências</p>
 					<span class="fa-solid fa-arrow-down" style="color: #5F287E;"></span>
 				</button>
-				<div class="panel">
-					<ul>
-						<li><a
-								href="https://kasvi.com.br/microscopio-microscopia-historia-evolucao/#:~:text=O%20primeiro%20microsc%C3%B3pio,e%20fizeram%20uma%20descoberta%20importante">Kasvi</a>
-						</li>
-						<li><a
-								href="https://pt.wikipedia.org/wiki/Corti%C3%A7a#:~:text=Corti%C3%A7a%20%C3%A9%20um%20material%20de,se%20acumula%20na%20parede%20celular">Wikipédia</a>
-						</li>
-						<li><a
-								href="https://brasilescola.uol.com.br/biologia/nivel-celula.htm#:~:text=A%20citologia%20%C3%A9%20a%20ci%C3%AAncia,c%C3%A9lulas%2C%20suas%20estruturas%20e%20fun%C3%A7%C3%B5es">Brasil Escola</a>
-						</li>
-						<li>
-							<a href="https://www.todamateria.com.br/citologia/">Toda Matéria</a>
-						</li>
-					</ul>
-				</div>
+				<ul id="minhasReferencias" class="minhasReferencias">
+					<li><a href="https://kasvi.com.br/microscopio-microscopia-historia-evolucao/#:~:text=O%20primeiro%20microsc%C3%B3pio,e%20fizeram%20uma%20descoberta%20importante">Kasvi</a></li>
+					<li><a href="https://pt.wikipedia.org/wiki/Corti%C3%A7a#:~:text=Corti%C3%A7a%20%C3%A9%20um%20material%20de,se%20acumula%20na%20parede%20celular">Wikipédia</a></li>
+					<li><a href="https://brasilescola.uol.com.br/biologia/nivel-celula.htm#:~:text=A%20citologia%20%C3%A9%20a%20ci%C3%AAncia,c%C3%A9lulas%2C%20suas%20estruturas%20e%20fun%C3%A7%C3%B5es">Brasil Escola</a></li>
+					<li><a href="https://www.todamateria.com.br/citologia/">Toda Matéria</a></li>
+				</ul>
 			</div>
 		</div>
 
