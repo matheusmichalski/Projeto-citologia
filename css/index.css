@@ -1,7 +1,8 @@
 .banner {
     display: flex;
     justify-content: space-between;
-
+    background: url(/src/images/ImagemBanner.png) no-repeat right top ;
+    padding-bottom: 8vw;
     .texto {
         padding-left: 10vw;
         padding-top: 12vw;
