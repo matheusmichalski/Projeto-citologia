@@ -38,6 +38,7 @@
 .procarionteEucarionte {
     background: url(/src/images/Fundo_2.png) no-repeat center;
     padding: 11vw 0 11vw 0;
+    font-family: "Libre Franklin";
     
     .procarionte{
         border-top: #5F287E 2px solid;
