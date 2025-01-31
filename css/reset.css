@@ -136,6 +136,7 @@ table {
 html {
     font-family: "itim", 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 1.3rem;
+	background: url(/src/images/Fundo3.png) no-repeat left 100%;
 }
 
 h1,

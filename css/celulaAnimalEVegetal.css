@@ -1,248 +1,69 @@
-/*====================================
-    Formatação geral
-=====================================*/
-
-body {
-  font-family: "Itim", cursive;
-  font-weight: 400;
-  font-style: normal;
-}
-
-/*====================================
-    Formatação header
-=====================================*/
-
-header {
-  background-color: #D0CFD3;
-  padding: 1.5vw 2vw 1vw 2vw;
-  color: #2e1089;
+.bannerAnimal,
+.bannerVegetal {
   display: flex;
   justify-content: space-between;
-  position: fixed;
-  width: 100%;
-  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.489);
+  padding-bottom: 12.4vw;
+      padding-left: 10vw;
+      padding-top: 12vw;
+
+      h1{
+          font-size: 3.5rem;
+          color: #5F287E;
+      }
+
+      p {
+          font-size: 1.5rem;
+
+          span {
+              color: #BA48FD;
+          }
+      }
+  }
+
+  .bannerAnimal {
+    background: url(/src/images/bannerAnimal.png) no-repeat right top ;
+  }
+
+  .textoCentral {
+    padding: 0 10vw 0 10vw;
+    h2 {
+        font-size: 1.5rem;
+        margin-bottom: 2vw;
+    }
+
+    li {
+      padding: 0.5vw 0 0.5vw 0;
+    }
+
+    li:last-child  {
+      padding-bottom: 1vw;
+    }
+
+    p {
+        color: #959595;
+        line-height: 1.5;
+
+        span {
+          color: #5F287E;
+        }
+    }
 }
 
-
-header ul {
-  display: flex;
-  padding: 1.2vw 4vw 0.8vw 1vw;
-}
-
-header ul li {
-  padding: 0 1vw 0 1vw;
-  font-size: 1.25rem;
-  cursor: pointer;
-}
-
-header ul li a {
-  text-decoration: none;
-  color: #2e1089;
-}
-
-.paginaAtual {
-  background-color: white;
-  padding: 0.5vw;
-  border-radius: 100px;
-}
-
-/*==============================
-    Formatação banner
-================================*/
-
-section.banner img {
-  width: 100%;
-  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.491);
-}
-
-/*=============================
-    Formatação meio
-==============================*/
-
-section.celula-conteudo {
-  margin: 2vw 2vw 2vw 2vw;
-}
-
-section.celula-conteudo h1 {
-  padding: 2vw 0vw 2vw 0vw;
-  font-size: 3rem;
+.botoes {
   text-align: center;
-  justify-content: center;
-  color: #5F287E;
-}
+  padding: 10vw;
 
+  a:first-child {
+    margin-right: 15vw;
+  }
 
-
-section.celula-conteudo div.blocos {
-  justify-content: space-between;
-  display: flex;
-}
-
-section.celula-conteudo div img {
-  border-radius: 25px;
-  height: 39.3vw;
-  padding: 0 0 0 2vw;
-}
-
-section.celula-conteudo div.conteudo {
-  background-color: #C3AAFF;
-  padding: 2vw 3vw 2vw 3vw;
-  border-radius: 30px;
-  margin: 0vw 0vw 2vw 0vw;
-  line-height: 25px;
-  font-size: 1.5rem;
-  ;
-}
-
-section.celula-conteudo div.conteudo p {
-  padding: 1.5vw 0vw 0.6vw 0vw;
-  margin: 0vw 0vw 2vw 0vw;
-  ;
-}
-
-section.celula-conteudo div.conteudo ul li {
-  padding: 0vw 0vw 0.2vw 0vw;
-  margin: 0vw 0vw 2vw 0vw;
-  font-size: 1.5rem;
-
-}
-
-
-section.celula-conteudo div.conteudo div h2 {
-  background-color: white;
-  justify-content: center;
-  text-align: center;
-  font-size: 2.3rem;
-  border-radius: 10px;
-  padding: 0 0 10vw 0;
-  margin: 0vw 25vw 2vw 25vw;
-}
-
-section.celula-conteudo div.fontes {
-  justify-content: center;
-  margin: 2vw 4vw 3vw 3vw;
-}
-
-section.celula-conteudo div.fontes img {
-  width: 22vw;
-}
-
-section.celula-conteudo div.fontes p {
-  margin-left: 2vw;
-  font-weight: 500;
-  margin: 1vw 0 1vw 1vw;
-}
-
-section.organelas h2 {
-  font-size: 2.3rem;
-  padding: 0 0 1vw 0;
-  text-align: center;
-}
-
-<<<<<<< HEAD
-section.organelas h2 a{
-    text-decoration: none;
-    color: white;
-    background-color: #020734;
-    padding: 1vw;
+  a {
+    border: #5F287E 2px solid;
+    padding: 4vw 6vw 4vw 6vw;
     border-radius: 20px;
-=======
-section.organelas div {
-  background-color: #C3AAFF;
-  padding: 8vw 3vw 8vw 2vw;
-  margin: 1.2vw 10vw 3vw 10vw;
-  border-radius: 30px;
-  line-height: 2px;
->>>>>>> 46050771aaed7eda2c2adeb5191686d5600925c1
-}
-
-
-/*==============================
-    Redirecionamento de páginas
-=============================*/
-
-section.botoes {
-  justify-content: center;
-  background-color: #C3AAFF;
-  padding: 3vw 8vw 3vw 8vw;
-  margin: 2vw 16vw 2vw 16vw;
-  border-radius: 30px;
-}
-
-section.botoes ul {
-  display: flex;
-  justify-content: space-between;
-}
-
-section.botoes ul li a {
-  color: white;
-  text-decoration: none;
-  font-size: 1.2rem;
-  background-color: #5F287E;
-  padding: 1vw 2vw 1vw 2vw;
-  border-radius: 20px;
-}
-
-
-
-/*==============================
-Formatação referências
-=============================*/
-
-/* Estilo do botão recolhível */
-
-.ref {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  /* Centraliza o botão horizontalmente */
-  /* Ajusta a posição vertical */
-  margin: 5vw 20vw 10vw 20vw;
-  font-size: 1.3rem;
-}
-
-div.ref img {
-  margin: 0 0 0 5px;
-}
-
-.accordion {
-  background-color: #C3AAFF;
-  color: #000000;
-  cursor: pointer;
-  padding: 18px 24px;
-  border: none;
-  text-align: center;
-  outline: none;
-  font-size: 1.5rem;
-  transition: background-color 0.2s ease;
-  width: 100%;
-  /* O botão se adapta ao contêiner */
-  border-radius: 8px;
-  /* Cantos arredondados */
-}
-
-/* Painel oculto */
-.panel {
-  display: none;
-  background-color: white;
-  overflow: hidden;
-  margin-top: 20px;
-  line-height: 35px;
-  font-size: 1.4rem;
-  text-align: center;
-  /* Espaço entre o botão e o painel */
-}
-
-
-/*==============================
-    Formatação footer
-=============================*/
-
-footer {
-  background-color: #020734;
-  color: white;
-  padding: 4vw 0 4vw 0;
-  text-align: center;
-  font-size: 1.1rem;
-  font-weight: 600;
+    color: black;
+    text-decoration: none;
+    font-family: "libre Franklin", 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.4rem;
+  }
 }

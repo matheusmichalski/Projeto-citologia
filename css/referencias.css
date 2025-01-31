@@ -8,16 +8,8 @@
             margin: 5vw 20vw 10vw 20vw;
             font-size: 1.3rem;
             font-family: "Lexend", 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        }
-        .minhasReferencias {
-            display: none;
-            list-style-type: none;
-            padding: 0;
-            margin: 0;
-            text-align: left;
-        }
-
-        li {
+            
+            li {
             display: block;
             margin-bottom: 10px;
             text-align: center;
@@ -27,6 +19,16 @@
             color: #959595;
             font-size: 1rem;
         }
+        }
+        .minhasReferencias {
+            display: none;
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            text-align: left;
+        }
+
+        
         .referencias {
             display: flex;
             align-items: center;
