@@ -1,214 +1,152 @@
-    /*====================================
-    Formatação geral
-=====================================*/
-
-body {
-    font-family: "Itim", cursive;
-    font-weight: 400;
-    font-style: normal;
-}
-
-/*====================================
-    Formatação header
-=====================================*/
-
-header {
-    background-color: #D0CFD3;
-    padding: 1.5vw 2vw 1vw 2vw;
-    color: #2e1089;
-    display: flex;
-    justify-content: space-between;
-    position: fixed;
-    width: 100%;
-    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.489);
-}
-
-
-header ul {
-    display: flex;
-    padding: 1.2vw 4vw 0.8vw 1vw;
-}
-
-header ul li {
-    padding: 0 1vw 0 1vw;
-    font-size: 1.25rem;
-    cursor: pointer;
-}
-
-header ul li a {
-    text-decoration: none;
-    color: #2e1089;
-}
-
-.paginaAtual {
-    background-color: white;
-    padding: 0.5vw;
-    border-radius: 100px;
-}
-
 /*==============================
     Formatação banner
 ================================*/
+.bannerProcarionte,
+.bannerEucarionte {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 12.4vw;
+    padding-left: 10vw;
+    padding-top: 14vw;
 
-section.banner img {
-    width: 100%;
-    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.491);
+    h1 {
+        font-size: 3.5rem;
+        color: #5F287E;
+    }
+}
+
+.bannerProcarionte {
+    background: url(/src/images/ProcarionteBanner.png) no-repeat right top;
+}
+
+.bannerEucarionte {
+    background: url(/src/images/EucarionteBanner.png) no-repeat right top;
 }
 
 /*=============================
     Formatação meio
 ==============================*/
 
-section.celula-conteudo {
-    margin: 2vw 2vw 2vw 2vw;
+.intro {
+    margin-bottom: 5vw;
 }
 
-section h1 {
-    font-size: 3rem;
-    text-align: center;
-    justify-content: center;
-    color: #5F287E;
+.textoCentral {
+    margin: 0 10vw 0 10vw;
+    border-bottom: #5F287E solid 2px;
+
+    h2 {
+        font-size: 1.5rem;
+        margin-bottom: 2vw;
+    }
+
+    li {
+        padding: 0.5vw 0 0.5vw 0;
+    }
+
+    li:last-child {
+        padding-bottom: 5vw;
+    }
+
+    p {
+        color: #959595;
+        line-height: 1.5;
+
+        span {
+            color: #5F287E;
+        }
+    }
 }
 
-section.celula-conteudo div.texto {
-    justify-content: space-between;
-    justify-content: center;
-    flex-direction: column;
+.textoEstrutura {
+    margin: 5vw 10vw 0 10vw;
+
+    h2 {
+        font-size: 1.5rem;
+        margin-bottom: 2vw;
+    }
+
+    li {
+        padding: 0.5vw 0 0.5vw 0;
+    }
+
+    li:last-child {
+        padding-bottom: 5vw;
+    }
+
+    p {
+        color: #959595;
+        line-height: 1.5;
+
+        span {
+            color: #5F287E;
+        }
+    }
 }
 
-section.celula-conteudo div.blocos div.texto ul{
+.exemplos {
     display: flex;
-    justify-content: space-between;
+    margin: 5vw 10vw 8vw 10vw;
+
+    .texto {
+        margin-left: 2vw;
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 1.5rem;
+        margin-bottom: 2vw;
+        font-family: "Libre Franklin", 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight: 400;
+    }
+
+    p {
+        color: #959595;
+        line-height: 1.5;
+    }
 }
 
-section.celula-conteudo div.blocos div.texto ul li{
-    justify-content: space-between;
-    background-color: #C3AAFF;
+.AnimaisVegetais {
+    h2 {
+        text-align: center;
+        font-family: "Lexend", 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight: 400;
+        font-size: 1.8rem;
+        color: #5F287E;
+        margin-bottom: 5vw;
+    }
+
+    .textoRoxo {
+        padding: 5vw;
+        margin: 0 5vw 0 5vw;
+        border-radius: 30px;
+        background-color: #E9CEF9;
+
+        li {
+            margin: 2vw 0 2vw;
+
+            p{
+                color: #959595;
+            }
+        }
+    }
+}
+
+.botoes {
     text-align: center;
-    border-radius: 30px;
-    margin: 1vw 1vw 1vw 0;
-    padding: 1vw 0 1vw 0;
-}
+    padding: 10vw;
 
-section.celula-conteudo div.blocos div.texto ul li h2{
-    padding: 1vw;
-    background-color: white;
-    font-size: 1.2rem;
-    margin: 0 20vw 0 20vw;
-    border-radius: 20px;
-}
+    a:first-child {
+        margin-right: 15vw;
+    }
 
-section.celula-conteudo div.blocos div.texto-um{
-    background-color: #C3AAFF;
-    border-radius: 30px;
-    padding: 1vw 1vw 2vw 1vw;
-    margin: 1vw 0 1vw 0;
-}
-
-section.celula-conteudo div.fontes {
-    justify-content: space-between;
-    text-align: center;
-}
-
-section.celula-conteudo div.fontes img {
-    width: 22vw;
-    margin: 1vw;
-    justify-content: space-between;
-    margin: 1vw 2vw 2vw 2vw;
-}
-
-section.celula-conteudo div.fontes p {
-    margin-left: 2vw;
-    font-weight: 500;
-    margin: 1vw 0 1vw 1vw;
-}
-
-section.botoes {
-    justify-content: center;
-    background-color: #C3AAFF;
-    padding: 4vw 8vw 4vw 8vw;
-    margin: 2vw 10vw 2vw 10vw;
-    border-radius: 30px;
-}
-
-section.botoes ul {
-    display: flex;
-    justify-content: space-between;
-}
-
-section.botoes ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 1.2rem;
-    background-color: #5F287E;
-    padding: 2vw;
-    border-radius: 100px;
-}
-
-div.texto-um p{
-    margin-top: 1vw;
-}
-
-section.celula-conteudo div.exemplos{
-    background-color: #020734;
-    color: white;
-    padding: 2vw;
-    text-align: center;
-    border-radius: 20px;
-}
-
-section.celula-conteudo div.exemplos h3{
-    font-size: 1.2rem;
-    background-color: white;
-    margin: 0 40vw 1vw 40vw;
-    padding: 1vw;
-    color: black;
-    border-radius: 10px;
-}
-
-div.animal-e-vegetal{
-    text-align: center;
-}
-
-div.animal-e-vegetal h2{
-    font-size: 1.3rem;
-    margin-top: 1vw;
-}
-
-div.animal-e-vegetal p {
-    background-color: #C3AAFF;
-    padding: 1vw;
-    margin: 1vw;
-    border-radius: 20px;
-}
-
-div.animal-e-vegetal ul {
-    justify-content: space-between;
-    display: flex;
-    margin: 0 30vw 0 30vw;
-}
-
-div.animal-e-vegetal ul li{
-    margin: 3vw 0 3vw 0;
-}
-
-div.animal-e-vegetal ul li a{
-    color: white;
-    text-decoration: none;
-    background-color: #020734;
-    padding: 2vw;
-    border-radius: 10px;
-}
-
-/*==============================
-    Formatação footer
-=============================*/
-
-footer {
-    background-color: #020734;
-    color: white;
-    padding: 4vw 0 4vw 0;
-    text-align: center;
-    font-size: 1.1rem;
-    font-weight: 600;
+    a {
+        border: #5F287E 2px solid;
+        padding: 4vw 6vw 4vw 6vw;
+        border-radius: 20px;
+        color: black;
+        text-decoration: none;
+        font-family: "libre Franklin", 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 1.4rem;
+    }
 }

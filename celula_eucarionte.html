@@ -2,213 +2,222 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Célula eucarionte | Bio Experience</title>
-    <link rel="shortcut icon" type="imagex/ico" href="src/images/logo_guia.ico">
-    <script src="https://kit.fontawesome.com/7a17719856.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/tipoDeCelula.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Eucariontes | Bio Experience</title>
+	<link rel="shortcut icon" type="imagex/ico" href="src/images/logo_guia.ico" />
+	<script src="https://kit.fontawesome.com/7a17719856.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="css/reset.css" />
+	<link rel="stylesheet" href="css/tipoDeCelula.css" />
+	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/referencias.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Itim&family=Lexend:wght@100..900&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">	
+
 </head>
 
 <body>
-    <main>
-        <header>
-            <a href="index.html"><img src="src/images/logo.png" alt="logo" height="50px" width="50px"></a>
+	<main>
+		<header>
+			<ul>
+				<li><a href="sobre_nos.html"><button class="sobreNos">Sobre nós</button></a></li>
+				<li><a href="index.html"><span class="fa-solid fa-house" style="color: #2e1089;"></span></a></li>
+				<li><button id="citologiaBtn">Citologia</button></li>
+			</ul>
+		</header>
 
+		<div id="citologiaPopup" class="popup">
+			<div class="popup-content">
+				<span class="close"></span>
+				<div class="procarionteHeader">
+					<a href="celula_procarionte.html">
+						<img src="src/images/ProcarionteMenor.png" alt="">
+						<p>Procarionte</p>
+					</a>
+				</div>
+				<div class="eucarionteHeader">
+					<button class="flex" onclick="mostrarLista()">
+						<img src="src/images/Eucarionte_4.png" alt="">
+						<p>Eucarionte</p>
+					</button>
+					<ul id="minhaLista" class="minhaLista">
+						<li><a href="celula_eucarionte.html">Eucariontes</a></li>
+						<li><a href="celula_animal.html">Animal</a></li>
+						<li><a href="celula_vegetal.html">Vegetal</a></li>
+						<li><a href="organelas.html">Organelas</a></li>
+					</ul>
 
+				</div>
+			</div>
+		</div>
+
+		<!-- Tudo que está abaixo da abertura do header e acima desse comentário pertence ao header-->
+
+        <section class="bannerEucarionte">
+            <h1>Eucarionte</h1>
+        </section>
+
+        <section class="textoCentral">
+            <p class="intro">Em comparação com procariontes, as células eucariontes são mais complexas. Primeiro, células eucariontes têm núcleo definido, onde o material genético é envolvido por uma membrana nuclear (Que tem como função de proteger moléculas de DNA que tem nessa região) , nesse tipo de célula não tem plasmídeos (São pedaços extras de DNA que, em bactérias oferecem vantagens de sobrevivência e adaptação). Dentro do núcleo, o DNA é duplicado e a síntese RNA é produzida por meio do processo de transcrição. <br><br> As células eucariontes se diferenciam por conter vários compartimentos isolados por membranas. Esses compartimentos são as organelas membranosas, como o retículo endoplasmático, o complexo de Golgi, as mitocôndrias e, em células vegetais, os cloroplastos. Outra diferença é que essas células têm citoesqueleto, ou seja, fazem endocitose e exocitose.</p>
             <ul>
-                <li><a href="index.html"><span class="fa-solid fa-house-chimney"></span></a></li>
-                <li><a href="celula_animal.html" class="paginaAtual">Célula animal</a></li>
-                <li><a href="celula_vegetal.html">Célula vegetal</a></li>
-                <li><a href="organelas.html">Organelas</a></li>
-                <li><a href="sobre_nos.html">Sobre nós</a></li>
+                <h2>Ela possui</h2>
+                <li>
+                    <p> <span>Cromossomos Eucariontes:</span>São lineares e múltiplos, e ficam no núcleo celular, onde o DNA é protegido por uma membrana nuclear e associado a proteínas histonas, que ajudam a compactar e regular sua expressão. Contêm genes fundamentais para funções vitais como desenvolvimento, divisão celular e produção de proteínas.</p>
+                </li>
+                <li>
+                    <p> <span>Organelas com DNA Próprio:</span>Em células eucariontes, organelas como mitocôndrias (presentes em todas as células eucariontes) e cloroplastos (presentes em células vegetais) possuem seu próprio DNA circular, similar ao das procariontes.</p>
+                </li>
+                <li>
+                    <p> <span>Mitocôndrias:</span>Contêm genes necessários para a produção de energia (ATP).
+                    </p>
+                </li>
+                <li>
+                    <p> <span>Cloroplastos:</span> Contêm genes envolvidos na fotossíntese.</p>
+                </li><li>
+                    <p> <span>Ausência de Plasmídeos:</span>As células eucariontes não possuem plasmídeos naturalmente, embora possam ser introduzidos artificialmente em estudos de biotecnologia ( Um exemplo disso é a produção de insulina humana, onde os cientistas inserem um plasmídeo com o gene da insulina em células eucariontes, como células de mamíferos cultivadas em laboratório, então a célula começa a produzir a insulina que é purificada e utilizada no tratamento de pessoas com diabetes, essa técnica também é aplicada na fabricação de proteínas humanas e medicamentos em grande quantidade.)</p>
+                </li>
+                
             </ul>
-        </header>
-
-        <section class="banner">
-            <img src="src/images/banner.png" alt="banner com imagens de celulas">
         </section>
 
-        <section class="celula-conteudo">
-            <h1>EUCARIONTE</h1>
-            <div class="blocos">
-                <div class="conteudo">
+        <section class="textoEstrutura">
+            <ul>
+                <h2>Sua estrutura</h2>
+                <li>
+                    <p> <span>Membrana Plasmática:</span>Controla a entrada e saída de substâncias;</p>
+                </li>
+                <li>
+                    <p> <span>Núcleo:</span>Contém o DNA e coordena a atividade celular; Envoltório nuclear, nucleoplasma, nucléolo, cromatina. Ribossomos: Sintetizam proteínas; estão livres ou no retículo endoplasmático.</p>
+                </li>
+                <li>
+                    <p> <span>Retículo Endoplasmático (RE):</span>Rugoso (RER): Produz e transporta proteínas. Liso (REL): Produz lipídios e desintoxica a célula.</p>
+                </li>
+                <li>
+                    <p><span>Complexo de Golgi:</span>Modifica e distribui proteínas e lipídios.</p>
+                </li>
+                <li>
+                    <p> <span>Mitocôndrias:</span> Produzem energia (ATP) pela respiração celular;
+                    </p>
+                </li><li>
+                    <p> <span>Cloroplastos (em células vegetais):</span>Realizam a fotossíntese;</p>
+                </li>
+                <li>
+                    <p> <span>Lisossomos:</span> Degradam materiais orgânicos com enzimas (principalmente em células animais).</p>
+                </li>
+                <li>
+                    <p> <span>Peroxissomos:</span>Realizam a quebra de ácidos graxos e desintoxicação;</p>
+                </li>
+                <li>
+                    <p> <span>Vacúolos:</span> Armazenam água, nutrientes e resíduos (grandes em células vegetais);
+                    </p>
+                </li>
+                <li>
+                    <p> <span>Citoesqueleto:</span>Fornece estrutura e facilita o movimento celular;</p>
+                </li>
+                <li>
+                    <p> <span>Centrossomo (principalmente em células animais):</span>Organiza microtúbulos e auxilia na divisão celular.</p>
+                </li>
+                        
+            </ul>
 
-                    <div class="texto-um">
-                        <p>Em comparação com procariontes, as células eucariontes são mais complexas. Primeiro, células
-                            eucariontes têm núcleo definido, onde o material genético é envolvido por uma membrana
-                            nuclear (Que tem como função de proteger moléculas de DNA que tem nessa região) , nesse tipo
-                            de célula não tem plasmídeos (São pedaços extras de DNA que, em bactérias oferecem vantagens
-                            de sobrevivência e adaptação). Dentro do núcleo, o DNA é duplicado e a síntese RNA é
-                            produzida por meio do processo de transcrição.
-                            <br><br>
-                            As células eucariontes se diferenciam por conter vários compartimentos isolados por
-                            membranas. Esses compartimentos são as organelas membranosas, como o retículo
-                            endoplasmático, o complexo de Golgi, as mitocôndrias e, em células vegetais, os
-                            cloroplastos. Outra diferença é que essas células têm citoesqueleto, ou seja, fazem
-                            endocitose e exocitose.
-                        </p>
-                    </div>
-
-                    <div class="texto">
-                        <ul>
-                            <li>
-                                <h2>Ela possui:</h2>
-                                <p><strong>Cromossomos Eucariontes:</strong> São lineares e múltiplos, e ficam no núcleo
-                                    celular, onde o DNA é protegido por uma membrana nuclear e associado a proteínas
-                                    histonas, que ajudam a compactar e regular sua expressão. Contêm genes fundamentais
-                                    para funções vitais como desenvolvimento, divisão celular e produção de proteínas.
-                                    <br><br>
-                                    <strong>Organelas com DNA Próprio:</strong> Em células eucariontes, organelas como
-                                    mitocôndrias (presentes em todas as células eucariontes) e cloroplastos (presentes
-                                    em células vegetais) possuem seu próprio DNA circular, similar ao das procariontes.
-                                    <br><br>
-                                    <strong>Mitocôndrias:</strong> Contêm genes necessários para a produção de energia
-                                    (ATP). <br><br>
-                                    <strong>Cloroplastos:</strong> Contêm genes envolvidos na fotossíntese. <br><br>
-                                    <strong>Ausência de Plasmídeos:</strong> As células eucariontes não possuem
-                                    plasmídeos naturalmente, embora possam ser introduzidos artificialmente em estudos
-                                    de biotecnologia ( Um exemplo disso é a produção de insulina humana, onde os
-                                    cientistas inserem um plasmídeo com o gene da insulina em células eucariontes, como
-                                    células de mamíferos cultivadas em laboratório, então a célula começa a produzir a
-                                    insulina que é purificada e utilizada no tratamento de pessoas com diabetes, essa
-                                    técnica também é aplicada na fabricação de proteínas humanas e medicamentos em
-                                    grande quantidade.)
-                                </p>
-                            </li>
-                            <li>
-                                <h2>Sua estrutura:</h2>
-                                <p><strong>Membrana Plasmática:</strong>Controla a entrada e saída de substâncias;
-                                    <br><br>
-                                    <strong>Núcleo:</strong>Contém o DNA e coordena a atividade celular;
-                                    Envoltório nuclear, nucleoplasma, nucléolo, cromatina.
-                                    Ribossomos: Sintetizam proteínas; estão livres ou no retículo endoplasmático.
-                                    <br><br>
-                                    <strong>Retículo Endoplasmático (RE):</strong>
-                                    <strong>Rugoso (RER):</strong> Produz e transporta proteínas.
-                                    Liso (REL): Produz lipídios e desintoxica a célula. <br><br>
-                                    <strong>Complexo de Golgi:</strong> Modifica e distribui proteínas e lipídios.
-                                    <br><br>
-                                    <strong>Mitocôndrias:</strong> Produzem energia (ATP) pela respiração celular.
-                                    <br><br>
-                                    <strong>Cloroplastos (em células vegetais):</strong> Realizam a fotossíntese.
-                                    <br><br>
-                                    <strong>Lisossomos: </strong>Degradam materiais orgânicos com enzimas
-                                    (principalmente em células animais). <br><br>
-                                    <strong>Peroxissomos:</strong> Realizam a quebra de ácidos graxos e desintoxicação.
-                                    <br><br>
-                                    <strong>Vacúolos: </strong>Armazenam água, nutrientes e resíduos (grandes em células
-                                    vegetais). <br><br>
-                                    <strong>Citoesqueleto:</strong> Fornece estrutura e facilita o movimento celular.
-                                    <br><br>
-                                    <strong>Centrossomo (principalmente em células animais):</strong> Organiza
-                                    microtúbulos e auxilia na divisão celular.
-
-                                </p>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="fontes">
-                    <img src="src/images/eucarionte-pag-1.png" alt="">
-                    <img src="src/images/eucarionte-pag-2.png" alt="">
-                </div>
+        </section>
+        <section class="exemplos">
+            <img src="src/images/EucarionteDetalhada.png" alt="">
+            <div class="texto">
+                <h2>Exemplos</h2>
+                <p>A maior parte dos seres vivos que conhecemos (Tirando as bactérias, micoplasmas e algas azuis ) têm células eucariontes, ou seja, plantas, e animais. Os reinos: animalia, fungi, plantae, protista são eucariontes.</p>
             </div>
+        </section> 
 
-            <div class="exemplos">
-                <h3>exemplos</h3>
-                <p>
-                    A maior parte dos seres vivos que conhecemos (Tirando as bactérias, micoplasmas e algas azuis ) têm
-                    células eucariontes, ou seja, plantas, e animais. Os reinos: animalia, fungi, plantae, protista são
-                    eucariontes.
-                </p>
-            </div>
-
-            <div class="animal-e-vegetal">
-                <h2>ANIMAIS E VEGETAIS</h2>
-                <p>Antes de citar as particularidades de cada uma, vamos citar as semelhanças que são:
-                    (Lembrando que as duas são células EUCARIONTES)
-                    <br><br>
-                    <strong>Membrana Plasmática</strong>
-                    As duas possuem uma membrana plasmática que envolve a célula, administrando a entrada e saída de
-                    substâncias (Chamada de permeabilidade seletiva). <br><br>
-                    <strong>Núcleo</strong>
-                    Tanto células animais quanto vegetais possuem um núcleo que mantém o material genético (DNA) e
-                    controla as atividades das células. <br><br>
-                    <strong>Citoplasma</strong>
-                    Nas duas células, o citoplasma ocupa o espaço interno, sendo onde acontecem diversas reações
-                    químicas importantes e onde as organelas estão imersas, realizando suas funções. <br><br>
-                    <strong>Mitocôndrias</strong>
-                    Tanto células animais quanto vegetais possuem mitocôndrias, organelas que produzem energia (ATP) a
-                    partir de nutrientes, através da respiração celular. <br><br>
-                    <strong>Retículo Endoplasmático (RE)</strong>
-                    Os dois tipos celulares têm retículo endoplasmático rugoso (com ribossomos, para a fabricação de
-                    proteínas) e liso (para a fabricação de lipídios e desintoxicação). <br><br>
-                    <strong>Complexo de Golgi</strong>
-                    As células animais e vegetais têm o complexo de Golgi, responsável pela modificação, empacotamento e
-                    distribuição de proteínas e lipídios. <br><br>
-                    <strong>Ribossomos</strong>
-                    Os ribossomos estão presentes em ambas as células e são responsáveis pela fabricação de proteínas.
-                    <br><br>
-                    <strong>Citoesqueleto</strong>
-                    O citoesqueleto, uma rede de fibras proteicas que ajuda a manter o formato da célula e a facilitar o
-                    movimento das organelas, está presente em ambos os tipos de células.
-                </p>
-
+        <section class="AnimaisVegetais">
+            <h2>Animais e Vegetais</h2>
+            <div class="textoRoxo">
                 <ul>
-                    <li><a href="celula_animal.html">ANIMAL</a></li>
-                    <li><a href="celula_vegetal.html">VEGETAL</a></li>
+                    <li>
+                        <p>Antes de citar as particularidades de cada uma, vamos citar as semelhanças que são: (Lembrando que as duas são células EUCARIONTES)</p>
+                    </li>
+                    <li>
+                        <p>Membrana Plasmática As duas possuem uma membrana plasmática que envolve a célula, administrando a entrada e saída de substâncias (Chamada de permeabilidade seletiva).</p>
+                    </li>
+                    <li>
+                        <p>Núcleo Tanto células animais quanto vegetais possuem um núcleo que mantém o material genético (DNA) e controla as atividades das células.</p>
+                    </li>
+                    <li>
+                        <p>Citoplasma Nas duas células, o citoplasma ocupa o espaço interno, sendo onde acontecem diversas reações químicas importantes e onde as organelas estão imersas, realizando suas funções.</p>
+                    </li>
+                    <li>
+                        <p>Mitocôndrias Tanto células animais quanto vegetais possuem mitocôndrias, organelas que produzem energia (ATP) a partir de nutrientes, através da respiração celular.</p>
+                    </li>
+                    <li>
+                        <p>Retículo Endoplasmático (RE) Os dois tipos celulares têm retículo endoplasmático rugoso (com ribossomos, para a fabricação de proteínas) e liso (para a fabricação de lipídios e desintoxicação).</p>
+                    </li>
+                    <li>
+                        <p>Complexo de Golgi As células animais e vegetais têm o complexo de Golgi, responsável pela modificação, empacotamento e distribuição de proteínas e lipídios. </p>
+                    </li>
+                    <li>
+                        <p>Ribossomos Os ribossomos estão presentes em ambas as células e são responsáveis pela fabricação de proteínas.</p>
+                    </li>
+                    <li>
+                        <p>Citoesqueleto O citoesqueleto, uma rede de fibras proteicas que ajuda a manter o formato da célula e a facilitar o movimento das organelas, está presente em ambos os tipos de células.</p>
+                    </li>
                 </ul>
-
-                <p>COLOCA O BOTÃO DE REFERENCIA AQUI</p>
-
-            </div>
-
             </div>
         </section>
 
-        <div class="button-container">
-            <div class="ref">
-                <button class="accordion">Referências
-                    <img src="src/images/arrow.png" alt="Seta">
-                </button>
-                <div class="panel">
-                    <ul>
-                        <li><a
-                                href="https://brasilescola.uol.com.br/biologia/celulas-eucariontes.htm ">Brasil Escola</a>
-                        </li>
-                        <li><a
-                                href="https://brasilescola.uol.com.br/biologia/diferencas-entre-celulas-procariontes-eucariontes.htm ">Brasil Escola</a>
-                        </li>
-                        <li><a
-                                href="https://www.infoescola.com/biologia/eucariontes/ ">Info Escola</a>
-                        </li>
-                        <li><a href="https://www.educamaisbrasil.com.br/enem/biologia/celulas-eucariontes 
-                            ">Educa mais Brasil</a></li>
-                            <li><a href="https://brasilescola.uol.com.br/biologia/celula-animal.htm 
-                                ">Brasil Escola</a></li>
-                                <li><a href="https://brasilescola.uol.com.br/biologia/celula-vegetal.htm">Brasil Escola</a></li>
-                                <li><a href="https://brasilescola.uol.com.br/biologia/diferencas-entre-as-celulas-animais-e-vegetais.htm 
-                                    ">Brasil Escola</a></li>
-                                    <li><a href="https://mundoeducacao.uol.com.br/biologia/diferencas-entre-celula-animal-vegetal.htm ">Mundo Educação</a></li>
-                                    <li><a href="https://www.todamateria.com.br/celula-animal-e-vegetal/ 
-                                        ">Toda matéria</a></li>
-                    </ul>
-                </div>
-            </div>
+
+        <section class="botoes">
+            <a href="celula_animal.html">Animal</a>
+            <a href="celula_vegetal.html">Vegetal</a>
+        </section>
+
+
+
+        </section>
+        <div class="ref">
+            <button class="referencias" onclick="mostrarReferencias()">
+                <p>Referências</p>
+                <span class="fa-solid fa-arrow-down" style="color: #5F287E;"></span>
+            </button>
+            <ul id="minhasReferencias" class="minhasReferencias">
+                <li>
+                    <a href="https://brasilescola.uol.com.br/biologia/celulas-eucariontes.htm">Brasil Escola</a>
+                </li>
+                <li>
+                    <a href="https://brasilescola.uol.com.br/biologia/diferencas-entre-celulas-procariontes-eucariontes.htm">Brasil Escola</a>
+                </li>
+                <li>
+                    <a href="https://www.infoescola.com/biologia/eucariontes/">Info Escola</a>
+                </li>
+                <li>
+                    <a href="https://www.educamaisbrasil.com.br/enem/biologia/celulas-eucariontes">Educa mais Brasil</a></li>
+                <li>
+                    <a href="https://brasilescola.uol.com.br/biologia/celula-animal.htm">Brasil Escola</a></li>
+                <li>
+                    <a href="https://brasilescola.uol.com.br/biologia/celula-vegetal.htm">Brasil Escola</a>
+                </li>
+                <li>
+                    <a href="https://brasilescola.uol.com.br/biologia/diferencas-entre-as-celulas-animais-e-vegetais.htm">Brasil Escola</a>
+                </li>
+                <li>
+                    <a href="https://mundoeducacao.uol.com.br/biologia/diferencas-entre-celula-animal-vegetal.htm">Mundo Educação</a>
+                </li>
+                <li>
+                    <a href="https://www.todamateria.com.br/celula-animal-e-vegetal/">Toda Matéria</a>
+                </li>
+            </ul>
         </div>
+    </div>
+            
+            <footer>
 
-        <footer>
-
-            <p>&copy; 2024 Todos os direitos reservados - Bio Experience</p>
-
-        </footer>
-    </main>
-</body>
-
-</html>
+                <p>&copy; 2025 Todos os direitos reservados - Bio Experience</p>
+    
+            </footer>
+        </main>
+    </body>
+    
+    </html>
+    
+    <script src="index.js"></script>

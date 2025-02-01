@@ -2,159 +2,143 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Célula procarionte | Bio Experience</title>
-    <link rel="shortcut icon" type="imagex/ico" href="src/images/logo_guia.ico">
-    <script src="https://kit.fontawesome.com/7a17719856.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/tipoDeCelula.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Procariontes | Bio Experience</title>
+	<link rel="shortcut icon" type="imagex/ico" href="src/images/logo_guia.ico" />
+	<script src="https://kit.fontawesome.com/7a17719856.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="css/reset.css" />
+	<link rel="stylesheet" href="css/tipoDeCelula.css" />
+	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/referencias.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Itim&family=Lexend:wght@100..900&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">	
+
 </head>
 
 <body>
-    <main>
-        <header>
-            <a href="index.html"><img src="src/images/logo.png" alt="logo" height="50px" width="50px"></a>
+	<main>
+		<header>
+			<ul>
+				<li><a href="sobre_nos.html"><button class="sobreNos">Sobre nós</button></a></li>
+				<li><a href="index.html"><span class="fa-solid fa-house" style="color: #2e1089;"></span></a></li>
+				<li><button id="citologiaBtn">Citologia</button></li>
+			</ul>
+		</header>
 
+		<div id="citologiaPopup" class="popup">
+			<div class="popup-content">
+				<span class="close"></span>
+				<div class="procarionteHeader">
+					<a href="celula_procarionte.html">
+						<img src="src/images/ProcarionteMenor.png" alt="">
+						<p>Procarionte</p>
+					</a>
+				</div>
+				<div class="eucarionteHeader">
+					<button class="flex" onclick="mostrarLista()">
+						<img src="src/images/Eucarionte_4.png" alt="">
+						<p>Eucarionte</p>
+					</button>
+					<ul id="minhaLista" class="minhaLista">
+						<li><a href="celula_eucarionte.html">Eucariontes</a></li>
+						<li><a href="celula_animal.html">Animal</a></li>
+						<li><a href="celula_vegetal.html">Vegetal</a></li>
+						<li><a href="organelas.html">Organelas</a></li>
+					</ul>
 
+				</div>
+			</div>
+		</div>
+
+		<!-- Tudo que está abaixo da abertura do header e acima desse comentário pertence ao header-->
+
+        <section class="bannerProcarionte">
+            <h1>Procarionte</h1>
+        </section>
+
+        <section class="textoCentral">
+            <p class="intro">Essa palavra vem do grego, Pro: Antes e Karyon: Núcleo, “antes do núcleo”. A principal característica é a falta de um núcleo organizado. Dessa forma, o material genético não é envolto por uma membrana nuclear, ficando espalhado no citoplasma. Mas a falta de um núcleo não é a única distinção, as células procariontes não tem organelas membranosas,como mitocôndrias, retículos endoplasmáticos, etc. Os procariontes possuem DNA, que se apresenta na forma de um anel e não está associado a proteínas. Ela também não tem citoesqueleto (rede de filamentos e túbulos que fornece estrutura e suporte às células.), o que não deixa acontecer a endocitose (Um tipo de transporte celular em que a célula absorve substâncias, como nutrientes e líquidos, fazendo com que sua membrana se dobre para dentro - Invaginação) e a exocitose (Um tipo de transporte celular em que a células expulsam substâncias para o meio externo - Evaginação)</p>
             <ul>
-                <li><a href="index.html"><span class="fa-solid fa-house-chimney"></span></a></li>
-                <li><a href="celula_animal.html" class="paginaAtual">Célula animal</a></li>
-                <li><a href="celula_vegetal.html">Célula vegetal</a></li>
-                <li><a href="organelas.html">Organelas</a></li>
-                <li><a href="sobre_nos.html">Sobre nós</a></li>
+                <h2>Ela possui</h2>
+                <li>
+                    <p> <span>Cromossomos bacterianos:</span>Contêm a informação genética essencial para as funções vitais da bactéria, como replicação, metabolismo e síntese de proteínas.</p>
+                </li>
+                <li>
+                    <p> <span>Plasmídeos:</span> Transportam genes que conferem vantagens, como resistência a antibióticos e produção de toxinas, e podem ser transferidos entre bactérias por meio da conjugação (transferência de material genético entre bactérias, que ocorre por contato direto entre células).</p>
+                </li>
+                
             </ul>
-        </header>
-
-        <section class="banner">
-            <img src="src/images/banner.png" alt="banner com imagens de celulas">
         </section>
 
-        <section class="celula-conteudo">
-            <h1>PROCARIONTE</h1>
-            <div class="blocos">
-                <div class="conteudo">
+        <section class="textoEstrutura">
+            <ul>
+                <h2>Sua estrutura</h2>
+                <li>
+                    <p> <span>Cápsula:</span> Camada que envolve a célula, ela oferece proteção;</p>
+                </li>
+                <li>
+                    <p> <span>Citoplasma:</span>Gel que preenche a célula e ajuda a manter sua forma;</p>
+                </li>
+                <li>
+                    <p> <span>DNA:</span>Material genético que contém as instruções para o funcionamento da célula;</p>
+                </li>
+                <li>
+                    <p> <span>Flagelo:</span> Estrutura que permite o movimento da célula;
+                    </p>
+                </li><li>
+                    <p> <span>Membrana plasmática:</span>Camada que regula a entrada e saída de substâncias na célula;</p>
+                </li>
+                <li>
+                    <p> <span>Parede celular:</span>  Estrutura que dá suporte e forma à célula;</p>
+                </li>
+                <li>
+                    <p> <span>Pilus:</span>Projeção que ajuda a bactéria a se fixar a superfícies;</p>
+                </li>
+                <li>
+                    <p> <span>Ribossomo:</span> Organela responsável pela síntese de proteínas (o formato nas células procariontes e eucariontes não são muito diferentes, nas células eucariontes são maiores e mais complexos.).
+                    </p>
+                </li>
+                        
+            </ul>
 
-                    <div class="texto-um">
-                        <p>Essa palavra vem do grego, Pro: Antes e Karyon: Núcleo, “antes do núcleo”.
-                            A principal característica é a falta de um núcleo organizado. Dessa forma, o material
-                            genético não é envolto por uma membrana nuclear, ficando espalhado no citoplasma. Mas a
-                            falta de um núcleo não é a única distinção, as células procariontes não tem organelas
-                            membranosas,como mitocôndrias, retículos endoplasmáticos, etc. Os procariontes possuem DNA,
-                            que se apresenta na forma de um anel e não está associado a proteínas. Ela também não tem
-                            citoesqueleto (rede de filamentos e túbulos que fornece estrutura e suporte às células.), o
-                            que não deixa acontecer a endocitose (Um tipo de transporte celular em que a célula absorve
-                            substâncias, como nutrientes e líquidos, fazendo com que sua membrana se dobre para dentro -
-                            Invaginação) e a exocitose (Um tipo de transporte celular em que a células expulsam
-                            substâncias para o meio externo - Evaginação)
-                        </p>
-                    </div>
-
-                    <div class="texto">
-                        <ul>
-                            <li>
-                                <h2>Ela possui:</h2>
-                                <p>
-                                    <br><br>
-                                    <strong>Cromossomos bacterianos:</strong> Contêm a informação genética essencial
-                                    para as funções vitais da bactéria, como replicação, metabolismo e síntese de
-                                    proteínas.
-
-                                </p>
-                                <p>
-                                    <strong>Plasmídeos:</strong> Transportam genes que conferem vantagens, como
-                                    resistência a antibióticos e produção de toxinas, e podem ser transferidos entre
-                                    bactérias por meio da conjugação (transferência de material genético entre
-                                    bactérias, que ocorre por contato direto entre células).
-                                </p>
-                            </li>
-                            <li>
-                                <h2>Sua estrutura:</h2>
-                                <p><strong>Cápsula:</strong> Camada que envolve a célula, ela oferece proteção;
-                                </p>
-                                <p><strong>Citoplasma:</strong> Gel que preenche a célula e ajuda a manter sua forma;
-                                </p>
-                                <p><strong>DNA:</strong> Material genético que contém as instruções para o funcionamento
-                                    da célula;
-                                </p>
-                                <p><strong>Flagelo:</strong> Estrutura que permite o movimento da célula;</p>
-                                <p>Membrana plasmática: Camada que regula a entrada e saída de substâncias na célula;
-                                </p>
-                                <p><strong>Parede celular:</strong> Estrutura que dá suporte e forma à célula;
-                                </p>
-                                <p><strong>Pilus:</strong> Projeção que ajuda a bactéria a se fixar a superfícies;</p>
-                                <p><strong>Ribossomo:</strong> Organelo responsável pela síntese de proteínas (o formato
-                                    nas células procariontes e eucariontes não são muito diferentes, nas células
-                                    eucariontes são maiores e mais complexos.).
-                                </p>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="fontes">
-                    <img src="src/images/procarionte-pag-1.png" alt="">
-                    <img src="src/images/procarionte-pag-2.png" alt="">
-                </div>
-            </div>
-
-            <div class="exemplos">
-                <h3>Exemplos</h3>
-                <p>
-                    Os seres procariontes dominam o Reino Monera, ele inclui bactérias ( como algas azuis e micoplasma)
-                    e arqueias.
-                </p>
-            </div>
-
-            <div class="animal-e-vegetal">
-
-                <p>COLOCA O BOTÃO DE REFERENCIA AQUI</p>
-
-            </div>
-
-            </div>
         </section>
-        <div class="button-container">
-            <div class="ref">
-                <button class="accordion">Referências
-                    <img src="src/images/arrow.png" alt="Seta">
-                </button>
-                <div class="panel">
-                    <ul>
-                        <li><a
-                                href="https://cursinhoparamedicina.com.br/blog/biologia/procarionte-e-eucarionte-qual-a-diferenca/#:~:text=Basicamente%2C%20as%20c%C3%A9lulas%20dos%20seres,complexa%20e%20n%C3%BAcleo%20bem%20definido">Cursinho para medicina</a>
-                        </li>
-                        <li><a
-                                href="https://brasilescola.uol.com.br/biologia/diferencas-entre-celulas-procariontes-eucariontes.htm 
-                                ">Brasil Escola</a>
-                        </li>
-                        <li><a
-                                href="https://www.todamateria.com.br/celulas-procariontes/ ">Toda matéria</a>
-                        </li>
-                        <li>
-                            <a href="https://brasilescola.uol.com.br/o-que-e/biologia/o-que-sao-plasmideos.htm 
-                            ">Brasil Escola</a>
-                        </li>
-                        <li><a href="https://brasilescola.uol.com.br/o-que-e/biologia/o-que-e-cromossomo.htm
-                            ">Brasil Escola</a></li>
-                            <li>
-                                <a href="https://www.todamateria.com.br/celulas-procariontes/#:~:text=Os%20procariontes%20possuem%20DNA%2C%20o,um%20filamento%20de%20DNA%20circular  
-                                ">Toda matéria</a>
-                            </li>
-                    </ul>
-                </div>
+        <section class="exemplos">
+            <img src="src/images/procarionteDetalhada.png" alt="">
+            <div class="texto">
+                <h2>Exemplos</h2>
+                <p>Os seres procariontes dominam o Reino Monera, ele inclui bactérias ( como algas azuis e micoplasma) e arqueias.</p>
             </div>
-            </div>
+        </section> 
+
+
+        </section>
+        <div class="ref">
+            <button class="referencias" onclick="mostrarReferencias()">
+                <p>Referências</p>
+                <span class="fa-solid fa-arrow-down" style="color: #5F287E;"></span>
+            </button>
+            <ul id="minhasReferencias" class="minhasReferencias">
+                <li><a href="https://cursinhoparamedicina.com.br/blog/biologia/procarionte-e-eucarionte-qual-a-diferenca/#:~:text=Basicamente%2C%20as%20c%C3%A9lulas%20dos%20seres,complexa%20e%20n%C3%BAcleo%20bem%20definido">Cursinho para medicina</a></li>
+                <li><a href="https://brasilescola.uol.com.br/biologia/diferencas-entre-celulas-procariontes-eucariontes.htm">Brasil Escola</a></li>
+                <li><a href="https://www.todamateria.com.br/celulas-procariontes/">Toda Matéria</a></li>
+                <li><a href="https://brasilescola.uol.com.br/o-que-e/biologia/o-que-sao-plasmideos.htm">Brasil Escola</a></li>
+                <li><a href="https://brasilescola.uol.com.br/o-que-e/biologia/o-que-e-cromossomo.htm">Brasil Escola</a></li>
+                <li><a href="https://www.todamateria.com.br/celulas-procariontes/#:~:text=Os%20procariontes%20possuem%20DNA%2C%20o,um%20filamento%20de%20DNA%20circular">Toda Matéria</a></li>
+            </ul>
+        </div>
+    </div>
             
             <footer>
 
-                <p>&copy; 2024 Todos os direitos reservados - Bio Experience</p>
-
+                <p>&copy; 2025 Todos os direitos reservados - Bio Experience</p>
+    
             </footer>
-    </main>
-</body>
-
-</html>
+        </main>
+    </body>
+    
+    </html>
+    
+    <script src="index.js"></script>
