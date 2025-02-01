@@ -2,43 +2,62 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobre nós | Bio Experience</title>
-    <link rel="shortcut icon" type="imagex/ico" href="src/images/logo_guia.ico">
-    <script src="https://kit.fontawesome.com/7a17719856.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/sobre_nos.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Sobre nós | Bio Experience</title>
+	<link rel="shortcut icon" type="imagex/ico" href="src/images/logo_guia.ico" />
+	<script src="https://kit.fontawesome.com/7a17719856.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="css/reset.css" />
+	<link rel="stylesheet" href="css/sobre_nos.css" />
+	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/footer.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Itim&family=Lexend:wght@100..900&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">	
+
 </head>
 
 <body>
-    <main>
-        <header>
-            <a href="index.html"><img src="src/images/logo.png" alt="logo" height="50px" width="50px"></a>
+	<main>
+		<header>
+			<ul>
+				<li><a href="sobre_nos.html"><button class="sobreNos">Sobre nós</button></a></li>
+				<li><a href="index.html"><span class="fa-solid fa-house" style="color: #2e1089;"></span></a></li>
+				<li><button id="citologiaBtn">Citologia</button></li>
+			</ul>
+		</header>
 
+		<div id="citologiaPopup" class="popup">
+			<div class="popup-content">
+				<span class="close"></span>
+				<div class="procarionteHeader">
+					<a href="celula_procarionte.html">
+						<img src="src/images/ProcarionteMenor.png" alt="">
+						<p>Procarionte</p>
+					</a>
+				</div>
+				<div class="eucarionteHeader">
+					<button class="flex" onclick="mostrarLista()">
+						<img src="src/images/Eucarionte_4.png" alt="">
+						<p>Eucarionte</p>
+					</button>
+					<ul id="minhaLista" class="minhaLista">
+						<li><a href="celula_eucarionte.html">Eucariontes</a></li>
+						<li><a href="celula_animal.html">Animal</a></li>
+						<li><a href="celula_vegetal.html">Vegetal</a></li>
+						<li><a href="organelas.html">Organelas</a></li>
+					</ul>
 
-            <ul>
-                <li><a href="index.html"><span class="fa-solid fa-house-chimney"></span></a></li>
-<<<<<<< HEAD
-                <li><a href="celula_eucarionte.html">Célula Eucarionte</a></li>
-                <li><a href="celula_procarionte.html">Célula Procarionte</a></li>
-=======
-                <li><a href="celula_animal.html">Célula animal</a></li>
-                <li><a href="celula_vegetal.html">Célula vegetal</a></li>
-                <li><a href="organelas.html">Organelas</a></li>
->>>>>>> 46050771aaed7eda2c2adeb5191686d5600925c1
-                <li><a href="sobre_nos.html" class="paginaAtual">Sobre nós</a></li>
-            </ul>
-        </header>
+				</div>
+			</div>
+		</div>
+
+		<!-- Tudo que está abaixo da abertura do header e acima desse comentário pertence ao header-->
 
         <section class="banner">
-            <img src="src/images/banner.png" alt="banner com imagens de celulas">
+            <h1>Sobre Nós</h1>
         </section>
         <section class="sobre-nos">
-            <h1>SOBRE NÓS</h1>
 
             <ul class="fotos">
 
@@ -46,11 +65,11 @@
 
                     <li class="bianca">
                         <img src="src/images/bianca.png" alt="Foto da Bianca">
-                        <h2>Bianca I. J. de Souza</h2>
+                        <p>Bianca I. J. de Souza</p>
                     </li>
                     <li class="helena">
                         <img src="src/images/helena.png" alt="Foto da Helena">
-                        <h2>Helena S. Pereira</h2>
+                        <p>Helena S. Pereira</p>
                     </li>
 
                 </div>
@@ -59,11 +78,11 @@
 
                     <li class="matheus">
                         <img src="src/images/matheus.png" alt="Foto do Matheus">
-                        <h2>Matheus M. Michalski</h2>
+                        <p>Matheus M. Michalski</p>
                     </li>
                     <li class="rafael">
                         <img src="src/images/rafael.png" alt="Foto do Rafael">
-                        <h2>Rafael A. Otto</h2>
+                        <p>Rafael A. Otto</p>
                     </li>
 
                 </div>
@@ -76,10 +95,12 @@
 
         <footer>
 
-            <p>&copy; 2024 Todos os direitos reservados - Bio Experience</p>
+            <p>&copy; 2025 Todos os direitos reservados - Bio Experience</p>
 
         </footer>
     </main>
 </body>
 
 </html>
+
+<script src="index.js"></script>
