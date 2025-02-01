@@ -4,7 +4,7 @@
   justify-content: space-between;
   padding-bottom: 12.4vw;
       padding-left: 10vw;
-      padding-top: 12vw;
+      padding-top: 14vw;
 
       h1{
           font-size: 3.5rem;
@@ -22,6 +22,10 @@
 
   .bannerAnimal {
     background: url(/src/images/bannerAnimal.png) no-repeat right top ;
+  }
+
+  .bannerVegetal {
+    background: url(/src/images/bannerVegetal.png) no-repeat right top ;
   }
 
   .textoCentral {

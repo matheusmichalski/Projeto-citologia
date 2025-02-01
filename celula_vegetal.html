@@ -2,120 +2,102 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Célula vegetal | Bio Experience</title>
-    <link rel="shortcut icon" type="imagex/ico" href="src/images/logo_guia.ico">
+    <link rel="shortcut icon" type="imagex/ico" href="src/images/logo_guia.ico" />
     <script src="https://kit.fontawesome.com/7a17719856.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/celulaAnimalEVegetal.css">
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/celulaAnimalEVegetal.css" />
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/referencias.css">
+    <link rel="stylesheet" href="css/footer.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Itim&family=Lexend:wght@100..900&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <main>
         <header>
-            <a href="index.html"><img src="src/images/logo.png" alt="logo" height="50px" width="50px"></a>
-
-
             <ul>
-                <li><a href="index.html"><span class="fa-solid fa-house-chimney"></span></a></li>
-                <<<<<<< HEAD <li><a href="celula_eucarionte.html" class="paginaAtual">Célula Eucarionte</a></li>
-                    <li><a href="celula_procarionte.html">Célula Procarionte</a></li>
-                    =======
-                    <li><a href="celula_animal.html">Célula animal</a></li>
-                    <li><a href="celula_vegetal.html" class="paginaAtual">Célula vegetal</a></li>
-                    <li><a href="organelas.html">Organelas</a></li>
-                    >>>>>>> 46050771aaed7eda2c2adeb5191686d5600925c1
-                    <li><a href="sobre_nos.html">Sobre nós</a></li>
+                <li><a href="sobre_nos.html"><button class="sobreNos">Sobre nós</button></a></li>
+                <li><a href="index.html"><span class="fa-solid fa-house" style="color: #2e1089;"></span></a></li>
+                <li><button id="citologiaBtn">Citologia</button></li>
             </ul>
         </header>
 
-
-        <section class="banner">
-            <img src="src/images/banner.png" alt="banner com imagens de celulas">
-        </section>
-
-        <section class="celula-conteudo">
-            <h1>VEGETAL</h1>
-            <div class="blocos">
-                <div class="conteudo">
-                    <div>
-                        <p>Agora vamos ver as particularidades das células vegetais, elas são:
-
-                        </p>
-
-                        <ul>
-                            <li> <strong>Parede celular: </strong>Possui parede celular (Diferente da animal.) que é
-                                feita de celulose (É um tipo de carboidrato formado por várias moléculas de glicose
-                                ligadas umas nas outras), que é rígida e que traz estrutura, suporte e também proteção
-                                para essas células. Essa parede possibilita que as plantas fiquem firmes e cresçam em
-                                direção à luz. </li>
-                            <li> <strong>Cloroplastos:</strong>
-                                Os cloroplastos são partes da célula vegetal que contêm clorofila, uma substância verde
-                                que permite que a planta faça a fotossíntese, ou seja, transforma a luz do sol em
-                                energia para poder crescer.
-
-                            </li>
-                            <li> <strong>Vacúolo central:</strong>
-                                Esse tipo de célula tem um grande vacúolo central que detém água, nutrientes e resíduos.
-                                O vacúolo também ajuda a manter a pressão interna (Conhecido como turgor), que contribui
-                                para a firmeza das plantas.
-
-                            </li>
-                            <li> <strong>Lisossomos:</strong>
-                                A existência de lisossomos não é tão normal ou claro quanto nas células animais, pois
-                                algumas funções de quebra de substâncias já são realizadas pelo vacúolo central.
-                            </li>
-                            <li> <strong>Estrutura:</strong>
-                                Essas células têm formas mais definidas e regulares, constantemente em formatos de cubos
-                                ou retângulos, pois a sua parede celular é rígida.
-                            </li>
-                        </ul>
-
-
-                    </div>
+        <div id="citologiaPopup" class="popup">
+            <div class="popup-content">
+                <span class="close"></span>
+                <div class="procarionteHeader">
+                    <a href="celula_procarionte.html">
+                        <img src="src/images/ProcarionteMenor.png" alt="">
+                        <p>Procarionte</p>
+                    </a>
                 </div>
-                <img src="src/images/VEGETAL.png" alt="">
-            </div>
-            </div>
-        </section>
-        <section class="organelas">
-            <h2><a href="organelas.html">Organelas</a></h2>
-
-        </section>
-        <section class="botoes">
-            <ul>
-                <li><a href="celula_eucarionte.html">Veja as eucariotes</a></li>
-
-                <li><a href="celula_procarionte.html">Veja as procariontes</a></li>
-            </ul>
-        </section>
-        <div class="button-container">
-            <div class="ref">
-                <button class="accordion">Referências
-                    <img src="src/images/arrow.png" alt="Seta">
-                </button>
-                <div class="panel">
-                    <ul>
-                        <li><a
-                                href="https://brasilescola.uol.com.br/biologia/cloroplastos.htm">https://brasilescola.uol.com.br/biologia/html</a>
-                        </li>
-                        <li><a
-                                href="https://brasilescola.uol.com.br/biologia/cloroplastos.htm">https://brasilescola.uol.com.br/biologia/html</a>
-                        </li>
-                        <li><a
-                                href="https://brasilescola.uol.com.br/biologia/cloroplastos.htm">https://brasilescola.uol.com.br/biologia/html</a>
-                        </li>
+                <div class="eucarionteHeader">
+                    <button class="flex" onclick="mostrarLista()">
+                        <img src="src/images/Eucarionte_4.png" alt="">
+                        <p>Eucarionte</p>
+                    </button>
+                    <ul id="minhaLista" class="minhaLista">
+                        <li><a href="celula_eucarionte.html">Eucariontes</a></li>
+                        <li><a href="celula_animal.html">Animal</a></li>
+                        <li><a href="celula_vegetal.html">Vegetal</a></li>
+                        <li><a href="organelas.html">Organelas</a></li>
                     </ul>
+
                 </div>
             </div>
         </div>
+
+        <!-- Tudo que está abaixo da abertura do header e acima desse comentário pertence ao header-->
+
+        <section class="bannerVegetal">
+            <h1>Vegetal</h1>
+        </section>
+        <section class="textoCentral">
+            <p>Agora vamos ver as particularidades das células vegetais, elas são:</p>
+            <ul>
+                <li>
+                    <p> <span>Parede celular:</span>Possui parede celular (Diferente da animal.) que é feita de celulose (É um tipo de carboidrato formado por várias moléculas de glicose ligadas umas nas outras), que é rígida e que traz estrutura, suporte e também proteção para essas células. Essa parede possibilita que as plantas fiquem firmes e cresçam em direção à luz.</p>
+                </li>
+                <li>
+                    <p> <span>Cloroplastos:</span>Os cloroplastos são partes da célula vegetal que contêm clorofila, uma substância verde que permite que a planta faça a fotossíntese, ou seja, transforma a luz do sol em energia para poder crescer.</p>
+                </li>
+                <li>
+                    <p><span>Vacúolo central: </span>Esse tipo de célula tem um grande vacúolo central que detém água, nutrientes e resíduos. O vacúolo também ajuda a manter a pressão interna (Conhecido como turgor), que contribui para a firmeza das plantas.</p>
+                </li>
+                <li>
+                    <p> <span>Lisossomos:</span>A existência de lisossomos não é tão normal ou claro quanto nas células animais, pois algumas funções de quebra de substâncias já são realizadas pelo vacúolo central.</p>
+                </li>
+                <li>
+                    <p><span>Estrutura: </span> Essas células têm formas mais definidas e regulares, constantemente em formatos de cubos ou retângulos, pois a sua parede celular é rígida.</p>
+                </li>
+            </ul>
+        </section>
+        <section class="botoes">
+            <a href="celula_animal.html">Animal</a>
+            <a href="organelas.html">Organelas</a>
+        </section>
+
+        <div class="ref">
+            <button class="referencias" onclick="mostrarReferencias()">
+                <p>Referências</p>
+                <span class="fa-solid fa-arrow-down" style="color: #5F287E;"></span>
+            </button>
+            <ul id="minhasReferencias" class="minhasReferencias">
+                <li><a href="https://media.tenor.com/IHdlTRsmcS4AAAAM/404.gif">Está com erro 404!!!</a></li>
+            </ul>
+        </div>
+    </div>
+
         <footer>
 
-            <p>&copy; 2024 Todos os direitos reservados - Bio Experience</p>
+            <p>&copy; 2025 Todos os direitos reservados - Bio Experience</p>
 
         </footer>
     </main>
